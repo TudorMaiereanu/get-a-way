@@ -6,6 +6,7 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import { StartPageView } from './views/StartPageView';
 import { UserLoginView } from "./views/UserLoginView";
 import { UserSignupView } from "./views/UserSignupView";
+import { AboutPageView } from "./views/AboutPageView";
 
 
 export default class App extends React.Component {
@@ -16,6 +17,7 @@ export default class App extends React.Component {
         this.state = {
             title: 'Get a way',
             routes: [
+                { component: AboutPageView , path: '/about'},
                 { component: StartPageView , path: '/', exact: true},
                 { component: UserLoginView, path: '/login'},
                 { component: UserSignupView, path: '/register'}

@@ -1,7 +1,7 @@
 "use strict";
 
 import React from 'react';
-import Styled from 'styled-components';
+import { withRouter } from 'react-router-dom';
 
 
 class PlainFooter extends React.Component {
@@ -12,23 +12,14 @@ class PlainFooter extends React.Component {
 
     render() {
         return (
-            <div className={this.props.className}>
-                <hr/>
-                <p>© {new Date().getFullYear()} AI of the tiger. All rights reserved.</p>
+            <div class="footer text-center bg-dark w-100" style={{bottom:0, position:"fixed"}}>
+                <span class="text-muted" style={{margin: 10}}> © {new Date().getFullYear()} AI of the tiger. All rights reserved</span>
+                <a href="#about">
+                    <span className="text-muted" style={{margin: 10}}>About</span>
+                </a>
             </div>
         );
     }
 }
 
-export const Footer = Styled(PlainFooter)`
-    max-height: 35px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    background: white;
-    > p {
-        text-align: center;
-        margin-top: 4px;
-    }
-`;
+export default withRouter(PlainFooter);

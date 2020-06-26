@@ -7,6 +7,7 @@ import { StartPageView } from './views/StartPageView';
 import { UserLoginView } from "./views/UserLoginView";
 import { UserSignupView } from "./views/UserSignupView";
 import { AboutPageView } from "./views/AboutPageView";
+import { PriorityPageView } from "./views/PriorityPageView";
 
 
 export default class App extends React.Component {
@@ -20,7 +21,8 @@ export default class App extends React.Component {
                 { component: AboutPageView , path: '/about'},
                 { component: StartPageView , path: '/', exact: true},
                 { component: UserLoginView, path: '/login'},
-                { component: UserSignupView, path: '/register'}
+                { component: UserSignupView, path: '/register'},
+                { component: PriorityPageView, path: '/priority'}
             ]
         };
     }

@@ -13,9 +13,9 @@ class PlainFooter extends React.Component {
     render() {
         return (
             <div class="footer text-center bg-dark w-100" style={{bottom:0, position:"fixed"}}>
-                <span class="text-muted" style={{margin: 10}}> © {new Date().getFullYear()} AI of the tiger. All rights reserved</span>
+                <span class="text-white" style={{margin: 10}}> © {new Date().getFullYear()} AI of the tiger. All rights reserved</span>
                 <a href="#about">
-                    <span className="text-muted" style={{margin: 10}}>About</span>
+                    <span className="text-white" style={{margin: 10}}>About</span>
                 </a>
             </div>
         );

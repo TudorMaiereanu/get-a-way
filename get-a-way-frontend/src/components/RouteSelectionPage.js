@@ -34,15 +34,22 @@ class RouteSelectionPage extends React.Component {
                 <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
                     <p className="h2">Your routes</p>
                     <div className="col-100">
-                        {Object.keys(this.state.routes).map(item => <div className="row my-5 bg-dark p-5 mx-2">
-                            {this.state.routes[item].map(item => <div class="card mx-3" style={{width: "150px"}}>
-                                <img class="card-img-top" src="..." alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">{item}</h5>
-                                    <a href="#" class="btn btn-primary">Expand card</a>
-                                </div>
-                            </div>)}
-                        </div>)}
+                        {Object.keys(this.state.routes).map(item => 
+                            <div className="form-group">
+                            <label className="h3 ml-4">Route {item}</label>
+                            <div className="row bg-dark p-5 mx-4 mb-5 flex-nowrap" style={{height: "300px", overflowX: "scroll"}}>
+                                {this.state.routes[item].map(item => 
+                                    <div class="card mx-3" style={{minWidth: "200px"}}>
+                                        <img class="card-img-top" src="https://www.w3schools.com/w3images/fjords.jpg" alt="Card image cap" />
+                                        <div class="card-body">
+                                            <h5 class="card-title" style={{overflow: "hidden", width: "100px", height:"20px"}}>{item}</h5>
+                                            <a href="#" class="btn btn-primary">Expand card</a>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             </Page>

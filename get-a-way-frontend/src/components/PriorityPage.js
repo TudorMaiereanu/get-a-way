@@ -145,7 +145,7 @@ class PriorityPage extends React.Component {
                             
 
                             <button type="submit" className="btn btn-primary mt-5">
-                                <a href={"#routes"}className="text-white">
+                                <a href={"#routes"} className="text-white">
                                     Set priorities
                                 </a>
                             </button>

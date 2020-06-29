@@ -32,22 +32,55 @@ class RouteSelectionPage extends React.Component {
         return (
             <Page>
                 <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
-                    <p className="h2">Your routes</p>
-                    <div className="col-100">
+                    <p className="h2 ml-4">Select your route from Munich to Barcelona: </p>
+                    <div className="col-100 ml-4">
                         {Object.keys(this.state.routes).map(item => 
-                            <div className="form-group">
-                            <label className="h3 ml-4">Route {item}</label>
-                            <div className="row bg-dark p-5 mx-4 mb-5 flex-nowrap" style={{height: "300px", overflowX: "scroll"}}>
-                                {this.state.routes[item].map(item => 
-                                    <div class="card mx-3" style={{minWidth: "200px"}}>
-                                        <img class="card-img-top" src="https://www.w3schools.com/w3images/fjords.jpg" alt="Card image cap" />
-                                        <div class="card-body">
-                                            <h5 class="card-title" style={{overflow: "hidden", width: "100px", height:"20px"}}>{item}</h5>
-                                            <a href="#" class="btn btn-primary">Expand card</a>
+                            <div className="my-5 pl-5 border">
+                                <label className="h3 inline mt-3">Route {item}</label>
+                                <div className="row ml-0 mb-3">
+                                    <div className="col bg-white pl-5 pt-5 rounded" style={{minWidth:"200px", maxWidth:"300px", }}>
+                                        <div className="row h5">
+                                            Corona risk:
+                                        </div>
+                                        <div className="row h5">
+                                            Weather:
+                                        </div>
+                                        <div className="row h5">
+                                            CO2 footprint:
+                                        </div>
+                                        <div className="row h5">
+                                            Activities: hiking
+                                        </div>
+                                        <div className="row h5">
+                                            Average cost:
+                                        </div>
+                                        <div className="row h5">
+                                            Distance:
+                                        </div>
+                                        <div className="row mb-3 justify-content-center">
+                                            <a className="text-white" href={"#tiles"}>
+                                                <button type="submit" className="btn btn-primary mt-5">
+                                                    Pick route
+                                                </button>
+                                            </a>
                                         </div>
                                     </div>
-                                )}
-                            </div>
+                                    <div className="col mr-4">
+                                        <div className="row bg-light m-2 flex-nowrap rounded" style={{overflowX: "scroll"}}>
+                                        {this.state.routes[item].map(item => 
+                                        <div className="px-5">
+                                            <div class="card" style={{minWidth: "200px", height: "250px", borderRadius: "20px"}}>
+                                                <img class="card-img-top" style={{borderRadius: "20px 20px 0 0"}} src="https://www.w3schools.com/w3images/fjords.jpg" alt="Card image cap" />
+                                                <div class="card-body text-center" style={{overflowX: "auto"}}>
+                                                    <h5>{item}</h5>
+                                                    <p>Days: 5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        )}
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         )}
                     </div>

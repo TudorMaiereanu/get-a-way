@@ -10,6 +10,7 @@ import { AboutPageView } from "./views/AboutPageView";
 import { PriorityPageView } from "./views/PriorityPageView";
 import { RouteSelectionPageView } from "./views/RouteSelectionPageView";
 import { MapPageView } from "./views/MapPageView";
+import { TilesPageView } from "./views/TilesPageView";
 
 
 export default class App extends React.Component {
@@ -26,7 +27,8 @@ export default class App extends React.Component {
                 { component: UserSignupView, path: '/register'},
                 { component: PriorityPageView, path: '/priority'},
                 { component: RouteSelectionPageView, path: '/routes'},
-                { component: MapPageView, path: '/map'}
+                { component: MapPageView, path: '/map'},
+                { component: TilesPageView, path: '/tiles'}
             ]
         };
     }

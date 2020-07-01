@@ -35,9 +35,9 @@ class PriorityPage extends React.Component {
     render() {
         return (
             <Page>
-                <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
-                    <p className="h1 text-center" style={{paddingTop: "150px"}}>Choose your priorities.</p>
-                    <p className="h3 mt-3 text-center" style={{paddingBottom: "50px"}}>
+                <div className="w-100 p-3 mb-5" style={{position: "absolute", minHeight: "100%"}}>
+                    <p className="h1 text-center" style={{paddingTop: "50px"}}>Choose your priorities.</p>
+                    <p className="h3 mt-3 text-center">
                         In order to find the perfect route for you, we would like to know more about what you value in your travels
                     </p>
                     <div className="d-flex justify-content-center">
@@ -113,9 +113,9 @@ const InputRange = styled.input`
   
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: #333;
+    background: #19393B;
     border-radius: 50%;
-    box-shadow: -210px 0 0 200px #666;
+    box-shadow: -210px 0 0 200px #3D5C57;
     cursor: pointer;
     height: 20px;
     width: 20px;

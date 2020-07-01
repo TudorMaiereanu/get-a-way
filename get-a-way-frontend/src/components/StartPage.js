@@ -27,9 +27,9 @@ class StartPage extends React.Component {
     render() {
         return (
             <Page>
-                <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
-                    <p className="h1 text-center" style={{paddingTop: "150px"}}>Tailor-made road trips.</p>
-                    <p className="h2 mt-3 text-center" style={{paddingBottom: "50px"}}>Detour Corona. Reduce emissions. Save time.</p>
+                <div className="w-100 p-3 mb-5" style={{position: "absolute", minHeight: "100%"}}>
+                    <p className="h1 text-center" style={{paddingTop: "50px"}}>Tailor-made road trips.</p>
+                    <p className="h2 mt-3 text-center">Detour Corona. Reduce emissions. Save time.</p>
                     <div className="container">
                         <form onSubmit={this.handleSubmit}>
                             <div className="mt-5" style={{horizontalAlign: "middle"}}>
@@ -70,7 +70,7 @@ class StartPage extends React.Component {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <button type="submit" className="btn btn-primary mt-5 text-center">
+                                <button type="submit" className="btn btn-primary mt-3 text-center">
                                     <a href={`#priority/origin=${this.state.startLocation}&destination=${this.state.endLocation}`} className="text-white">
                                         Set priorities
                                     </a>

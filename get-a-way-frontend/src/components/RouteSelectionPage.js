@@ -32,34 +32,37 @@ class RouteSelectionPage extends React.Component {
         return (
             <Page>
                 <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
-                    <p className="h2 ml-4">Select your route from Munich to Barcelona: </p>
-                    <div className="col-100 ml-4">
+                    <p className="h3 ml-4">Select your route from Munich to Barcelona: </p>
+                    <div className="col-100 ml-4 h-75">
                         {Object.keys(this.state.routes).map(item => 
-                            <div className="my-5 pl-5 border">
-                                <label className="h3 inline mt-3">Route {item}</label>
-                                <div className="row ml-0 mb-3">
-                                    <div className="col bg-white pl-5 pt-5 rounded" style={{minWidth:"200px", maxWidth:"300px", }}>
-                                        <div className="row h5">
-                                            Corona risk:
+                            <div className="my-5 border">
+                                <div className="row ml-0">
+                                    <div className="col bg-white pl-4 pt-3 rounded text-align" style={{minWidth:"100px", maxWidth:"250px", }}>
+                                        <label className="h3 inline">Route {item}</label>
+                                        <div className="pl-3 row">
+                                            Corona Exposure:
                                         </div>
-                                        <div className="row h5">
-                                            Weather:
+                                        <div className="pl-3 row">
+                                            Weather: 6/10
                                         </div>
-                                        <div className="row h5">
-                                            CO2 footprint:
+                                        <div className="pl-3 row">
+                                            Cost: 200$
                                         </div>
-                                        <div className="row h5">
-                                            Activities: hiking
+                                        <div className="pl-3 row">
+                                            Carbon Footprint: CO2e kg
                                         </div>
-                                        <div className="row h5">
-                                            Average cost:
+                                        <div className="pl-3 row">
+                                            Travel Time: 30 h
                                         </div>
-                                        <div className="row h5">
-                                            Distance:
+                                        <div className="pl-3 row">
+                                            Surfing:
                                         </div>
-                                        <div className="row mb-3 justify-content-center">
+                                        <div className="pl-3 row">
+                                            Hiking:
+                                        </div>
+                                        <div className="row justify-content-center mt-3">
                                             <a className="text-white" href={"#tiles"}>
-                                                <button type="submit" className="btn btn-primary mt-5">
+                                                <button type="submit" className="btn btn-primary">
                                                     Pick route
                                                 </button>
                                             </a>
@@ -68,7 +71,7 @@ class RouteSelectionPage extends React.Component {
                                     <div className="col mr-4">
                                         <div className="row bg-light m-2 flex-nowrap rounded" style={{overflowX: "scroll"}}>
                                         {this.state.routes[item].map(item => 
-                                        <div className="px-5">
+                                        <div className="px-4">
                                             <div class="card" style={{minWidth: "200px", height: "250px", borderRadius: "20px"}}>
                                                 <img class="card-img-top" style={{borderRadius: "20px 20px 0 0"}} src="https://www.w3schools.com/w3images/fjords.jpg" alt="Card image cap" />
                                                 <div class="card-body text-center" style={{overflowX: "auto"}}>

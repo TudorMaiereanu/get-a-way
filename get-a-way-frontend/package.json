@@ -36,6 +36,7 @@
     "react": "16.8.4",
     "react-daterange-picker": "^2.0.1",
     "react-dom": "16.8.4",
+    "react-items-carousel": "^2.8.0",
     "react-map-gl": "^5.2.7",
     "react-md": "1.2.11",
     "react-router-dom": "4.2.2",

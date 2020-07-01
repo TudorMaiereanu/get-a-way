@@ -28,8 +28,8 @@ class StartPage extends React.Component {
         return (
             <Page>
                 <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
-                    <p className="h1 text-center" style={{paddingTop: "200px"}}>Tailor-made road trips.</p>
-                    <p className="h2 mt-3 text-center">Detour Corona. Reduce emissions. Save time.</p>
+                    <p className="h1 text-center" style={{paddingTop: "150px"}}>Tailor-made road trips.</p>
+                    <p className="h2 mt-3 text-center" style={{paddingBottom: "50px"}}>Detour Corona. Reduce emissions. Save time.</p>
                     <div className="container">
                         <form onSubmit={this.handleSubmit}>
                             <div className="mt-5" style={{horizontalAlign: "middle"}}>

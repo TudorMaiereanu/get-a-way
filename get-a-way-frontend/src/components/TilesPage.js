@@ -30,8 +30,8 @@ class RouteSelectionPage extends React.Component {
     render() {
         return (
             <Page>
-                <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
-                    <div className="row">
+                <div className="w-100" style={{position: "absolute", minHeight: "100%"}}>
+                    <div className="row py-3 border bg-dark text-white">
                         {this.state.routeStops.map(item => <div className="col text-center">{item}</div>)}
                     </div>
                     <div className="container-fluid" style={{maxWidth:"90%"}}>
@@ -55,8 +55,8 @@ class RouteSelectionPage extends React.Component {
                         leftChevron={<button className="btn btn-primary mt-5">{'Prev'}</button>}
                     >
                         {this.state.routeStops.map((item, i) =>
-                        <div className="row mb-5">
-                            <div class="col-4" style={{height: "500px"}}>
+                        <div className="row mb-5" style={{maxHeight: "400px"}}>
+                            <div class="col-5 my-auto">
                                 <div class="card m-3" style={{borderRadius: "20px"}}>
                                     <div id={`carouselExampleIndicators${item}`} class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators">
@@ -90,10 +90,14 @@ class RouteSelectionPage extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-7">
                                 <div className="m-3">
                                     <h5>Restrictions in {item}</h5>
-                                    <p>
+                                    <p className="h5" style={{height: "400px", overflowY: "auto"}}>
+                                        Note that, for travellers entering from a country, which is qualified a risk area according to the website of the Robert Koch-Institut, in almost all federal states a compulsory 14 day quarantine applies. If the respective federal state has issued an ordninance for travelers from risk countries, travellers need to self-quarantine, contact the local health authority and inform the latter of their entry. This is currently the case for travellers entering from Sweden.
+
+                                        Note that, for travellers entering from a country, which is qualified a risk area according to the website of the Robert Koch-Institut, in almost all federal states a compulsory 14 day quarantine applies. If the respective federal state has issued an ordninance for travelers from risk countries, travellers need to self-quarantine, contact the local health authority and inform the latter of their entry. This is currently the case for travellers entering from Sweden.
+
                                         Note that, for travellers entering from a country, which is qualified a risk area according to the website of the Robert Koch-Institut, in almost all federal states a compulsory 14 day quarantine applies. If the respective federal state has issued an ordninance for travelers from risk countries, travellers need to self-quarantine, contact the local health authority and inform the latter of their entry. This is currently the case for travellers entering from Sweden.
                                     </p>
                                 </div>

@@ -13,15 +13,17 @@ class Header extends React.Component {
 
     render() {
         return (
-            <nav class="navbar navbar-expand-md navbar-light bg-dark static-top">
+            <nav class="navbar navbar-expand-md navbar-light static-top" style={{backgroundColor: "#19393B"}}>
                 <div class="d-flex flex-grow-1 mr-3 ml-3">
-                    <a class="navbar-brand text-warning mr-auto" href="#">Get a way</a>
+                    <a class="navbar-brand text-white mr-auto" href="#">
+                        <img src="/assets/logo.png" alt="logo" style={{width:"20px"}}/>
+                    </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-warning"  href="#login">Login</a>
+                            <a class="nav-link text-white"  href="#login">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-warning"  href="#register">Register</a>
+                            <a class="nav-link text-white"  href="#register">Register</a>
                         </li>
                     </ul>
                 </div>

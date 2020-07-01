@@ -2,16 +2,8 @@
 
 import { withRouter } from 'react-router-dom';
 import React from 'react';
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 import Page from './Page';
-
-Date.prototype.addDays = function(days) {
-    var date = new Date(this.valueOf());
-    date.setDate(date.getDate() + days);
-    return date;
-}
-
+import Calendar from "./Calendar";
 
 class StartPage extends React.Component {
 
@@ -21,8 +13,6 @@ class StartPage extends React.Component {
         this.state = {
             startLocation : '',
             endLocation : '',
-            startDate: new Date(),
-            endDate: (new Date()).addDays(14),
         };
 
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -34,16 +24,16 @@ class StartPage extends React.Component {
         console.log("Set priorities")
     }
 
-    
-
     render() {
         return (
             <Page>
                 <div className="w-100 p-3" style={{position: "absolute", minHeight: "100%"}}>
+                    <p className="h1 text-center" style={{paddingTop: "200px"}}>Tailor-made road trips.</p>
+                    <p className="h2 mt-3 text-center">Detour Corona. Reduce emissions. Save time.</p>
                     <div className="container">
                         <form onSubmit={this.handleSubmit}>
-                            <div className="form-group mt-5">
-                                <label className="h5 mb-3" for="startLocation">Where are you starting your trip?</label>
+                            <div className="mt-5" style={{horizontalAlign: "middle"}}>
+                                <p className="h4 mb-3 text-center" for="startLocation">From</p>
                                 <select className="form-control"
                                     id="startLocation"
                                     onChange={(event) => {
@@ -57,8 +47,8 @@ class StartPage extends React.Component {
                                     <option value="Budapest">Budapest</option>
                                 </select>
                             </div>
-                            <div className="form-group mt-5">
-                                <label className="h5 mb-3" for="endLocation">Where do you want to travel?</label>
+                            <div className="mt-5">
+                                <p className="h4 mb-3 text-center" for="startLocation">To</p>
                                 <select className="form-control"
                                     id="endLocation"
                                     onChange={(event) => {
@@ -73,38 +63,19 @@ class StartPage extends React.Component {
                                 </select>
                             </div>
                             
-                            <div className="form-group mt-5">
-                                <label className="h5 mb-3" for="date">When do you want to start your trip?</label>
-                                <div className="form-inline" id="date">
-                                    <div className="form-group mr-5">
-                                        <label className="mr-3">From</label>
-                                        <DatePicker
-                                            selected={this.state.startDate}
-                                            onChange={date => this.setState({ startDate: date })}
-                                            minDate={new Date()}
-                                            maxDate={this.state.startDate.addDays(13)}
-                                            dateFormat="dd/MM/yyyy"
-                                        />
-                                    </div>
-                                    <div className="form-group">
-                                        <label className="mr-3">To</label>
-                                        <DatePicker
-                                            selected={this.state.endDate}
-                                            onChange={date => this.setState({ endDate: date })}
-                                            dateFormat="dd/MM/yyyy"
-                                            minDate={this.state.startDate}
-                                            maxDate={this.state.startDate.addDays(13)}
-                                        />
-                                    </div>
+                            <div className="mt-5">
+                                <p className="h4 mb-3 text-center" for="date">Choose dates:</p>
+                                <div className="text-center" id="date">
+                                    <Calendar/>
                                 </div>
                             </div>
-                            
-
-                            <button type="submit" className="btn btn-primary mt-5">
-                                <a href={`#priority/origin=${this.state.startLocation}&destination=${this.state.endLocation}`} className="text-white">
-                                    Set priorities
-                                </a>
-                            </button>
+                            <div className="text-center">
+                                <button type="submit" className="btn btn-primary mt-5 text-center">
+                                    <a href={`#priority/origin=${this.state.startLocation}&destination=${this.state.endLocation}`} className="text-white">
+                                        Set priorities
+                                    </a>
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>

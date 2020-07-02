@@ -5,8 +5,6 @@ import React from 'react';
 import Page from './Page';
 import Calendar from "./Calendar";
 
-const cityData = require('./constants/mockData');
-
 class StartPage extends React.Component {
 
     constructor(props) {

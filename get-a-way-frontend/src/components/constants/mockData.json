@@ -343,7 +343,7 @@
         {
             "routeIndex": "1",
             "weatherAverage": "6",
-            "coronaRisk": "High Exposure",
+            "coronaRisk": "High ",
             "cost": "Medium Budget",
             "hikeActivitiesNumber": "5",
             "surfActivitiesNumber": "3",
@@ -354,7 +354,7 @@
         {
             "routeIndex": "2",
             "weatherAverage": "6",
-            "coronaRisk": "Low Exposure",
+            "coronaRisk": "Low ",
             "cost": "Low Budget",
             "hikeActivitiesNumber": "11",
             "surfActivitiesNumber": "3",
@@ -365,7 +365,7 @@
         {
             "routeIndex": "3",
             "weatherAverage": "6",
-            "coronaRisk": "Moderate Exposure",
+            "coronaRisk": "Moderate ",
             "cost": "Low Budget",
             "hikeActivitiesNumber": "9",
             "surfActivitiesNumber": "3",
@@ -376,7 +376,7 @@
         {
             "routeIndex": "4",
             "weatherAverage": "6",
-            "coronaRisk": "Moderate Exposure",
+            "coronaRisk": "Moderate ",
             "cost": "Low Budget",
             "hikeActivitiesNumber": "2",
             "surfActivitiesNumber": "9",
@@ -387,7 +387,7 @@
         {
             "routeIndex": "5",
             "weatherAverage": "6",
-            "coronaRisk": "High Exposure",
+            "coronaRisk": "High ",
             "cost": "Medium Budget",
             "hikeActivitiesNumber": "3",
             "surfActivitiesNumber": "5",

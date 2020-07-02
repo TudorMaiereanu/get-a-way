@@ -16,14 +16,14 @@ class Header extends React.Component {
             <nav class="navbar navbar-expand-md navbar-light static-top" style={{backgroundColor: "#19393B"}}>
                 <div class="d-flex flex-grow-1 mr-3 ml-3">
                     <a class="navbar-brand text-white mr-auto" href="#">
-                        <img src="/assets/logo.png" alt="logo" style={{width:"20px"}}/>
+                        <img src="https://github.com/TudorMaiereanu/get-a-way/blob/master/get-a-way-frontend/src/assets/logo.png?raw=true" alt="logo" style={{width:"80px"}}/>
                     </a>
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-white"  href="#login">Login</a>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link text-white h3"  href="#login">Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white"  href="#register">Register</a>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link text-white h3"  href="#register">Register</a>
                         </li>
                     </ul>
                 </div>

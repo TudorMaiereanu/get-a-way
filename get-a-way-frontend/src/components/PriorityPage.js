@@ -14,23 +14,41 @@ class PriorityPage extends React.Component {
         super(props);
 
         this.state = {
-            coronaPriority: "",
-            weatherPriority: "",
-            costPriority: "",
-            hikingPriority: "",
-            surfingPriority: "",
-            emissionPriority: "",
+            coronaPriority: "0.5",
+            weatherPriority: "0.5",
+            costPriority: "0.5",
+            emissionPriority: "0.5",
+            timePriority: "0.5",
+            hasHiking: "",
+            hasSurfing: "",
         };
 
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChangeCoronaPriority = this.handleChangeCoronaPriority.bind(this);
+        this.handleChangeWeatherPriority = this.handleChangeWeatherPriority.bind(this);
+        this.handleChangeCostPriority = this.handleChangeCostPriority.bind(this);
+        this.handleChangeEmissionPriority = this.handleChangeEmissionPriority.bind(this);
+        this.handleChangeTimePriority = this.handleChangeTimePriority.bind(this);
     }
 
-    handleSubmit(event) {
-        event.preventDefault();
+    handleChangeCoronaPriority(event) {
+        this.setState({coronaPriority: event.target.value});
+    };
 
-        console.log("Get a way");
-        console.log(this.state);
-    }
+    handleChangeWeatherPriority(event) {
+        this.setState({weatherPriority: event.target.value});
+    };
+
+    handleChangeCostPriority(event) {
+        this.setState({costPriority: event.target.value});
+    };
+
+    handleChangeEmissionPriority(event) {
+        this.setState({emissionPriority: event.target.value});
+    };
+
+    handleChangeTimePriority(event) {
+        this.setState({timePriority: event.target.value});
+    };
 
     render() {
         return (
@@ -47,7 +65,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Reduce COVID-19 Exposure</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range"  min="0" max="1" step="0.05" />
+                                    <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.coronaPriority} onChange={this.handleChangeCoronaPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -55,7 +73,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Improve Weather”</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range"  min="0" max="1" step="0.05" />
+                                    <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.weatherPriority} onChange={this.handleChangeWeatherPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -63,7 +81,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Lower Costs</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range"  min="0" max="1" step="0.05" />
+                                    <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.costPriority} onChange={this.handleChangeCostPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -71,7 +89,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Minimize Carbon-Footprint</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range" min="0" max="1" step="0.05"/>
+                                    <InputRange type="range" min="0" max="1" step="0.05" value={this.state.emissionPriority} onChange={this.handleChangeEmissionPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -79,12 +97,30 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Shorten Travel Time</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range" min="0" max="1" step="0.05"/>
+                                    <InputRange type="range" min="0" max="1" step="0.05" value={this.state.timePriority} onChange={this.handleChangeTimePriority}/>
+                                </div>
+                            </div>
+                            <div className="row mt-5">
+                                <div className="col">
+                                    <p className="h5 text-left ml-5" for="startLocation">Go Surfing</p>
+                                </div>
+                                <div className="col text-center">
+                                    <CheckBox id="checkbox1" type="checkbox" />
+                                    <CheckBoxLabel htmlFor="checkbox1" />
+                                </div>
+                            </div>
+                            <div className="row mt-5">
+                                <div className="col">
+                                    <p className="h5 text-left ml-5" for="startLocation">Go Hiking</p>
+                                </div>
+                                <div className="col text-center">
+                                    <CheckBox id="checkbox2" type="checkbox" />
+                                    <CheckBoxLabel htmlFor="checkbox2" />
                                 </div>
                             </div>
 
                             <div className="text-center mt-5">
-                                <button type="submit" className="btn btn-primary mt-5">
+                                <button type="submit" className="btn btn-primary mt-5" style={{backgroundColor: "#eb401d"}}>
                                     <a href={"#routes"} className="text-white">
                                         Get a way
                                     </a>
@@ -99,12 +135,13 @@ class PriorityPage extends React.Component {
 }
 
 const InputRange = styled.input`
-{
-    -webkit-appearance: none;
-    background-color: #ddd;
-    overflow: hidden;
-    width: 400px;
-  }
+    {
+        -webkit-appearance: none;
+        background-color: #ddd;
+        overflow: hidden;
+        width: 300px;
+        border-radius: 20px;
+    }
   
   &::-webkit-slider-runnable-track {
     -webkit-appearance: none;
@@ -113,13 +150,51 @@ const InputRange = styled.input`
   
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: #19393B;
+    background: white;
     border-radius: 50%;
     box-shadow: -210px 0 0 200px #3D5C57;
     cursor: pointer;
     height: 20px;
     width: 20px;
   }
+`;
+
+const CheckBoxLabel = styled.label`
+    top: 0;
+    left: 0;
+    width: 100px;
+    border-radius: 15px;
+    background: #bebebe;
+    cursor: pointer;
+    &::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 3px;
+    background: #ffffff;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+`;
+
+const CheckBox = styled.input`
+    opacity: 0;
+    z-index: 1;
+    border-radius: 15px;
+    width: 42px;
+    height: 26px;
+    &:checked + ${CheckBoxLabel} {
+    background: #eb401d;
+    &::after {
+        content: "";
+        display: block;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        margin-left: 82px;
+        transition: 0.2s;
+    }
 `;
 
 export default withRouter(PriorityPage);

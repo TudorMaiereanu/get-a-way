@@ -62,7 +62,7 @@ class RouteSelectionPage extends React.Component {
                                         </div>
                                         <div className="row justify-content-center mt-3">
                                             <a className="text-white" href={"#tiles"}>
-                                                <button type="submit" className="btn btn-primary">
+                                                <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d"}}>
                                                     Pick route
                                                 </button>
                                             </a>

@@ -5,6 +5,8 @@ import React from 'react';
 import Page from './Page';
 import Calendar from "./Calendar";
 
+const cityData = require('./constants/mockData');
+
 class StartPage extends React.Component {
 
     constructor(props) {
@@ -70,7 +72,7 @@ class StartPage extends React.Component {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <button type="submit" className="btn btn-primary mt-3 text-center">
+                                <button type="submit" className="btn btn-primary mt-3 text-center" style={{backgroundColor: "#eb401d"}}>
                                     <a href={`#priority/origin=${this.state.startLocation}&destination=${this.state.endLocation}`} className="text-white">
                                         Set priorities
                                     </a>

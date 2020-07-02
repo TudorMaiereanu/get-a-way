@@ -47,7 +47,13 @@ const MapboxGLMap = (newProps) => {
             let lat = parseInt(mockData.cities.find(obj => { return obj["locationName"] === stopName})['locationLat'])
 
             var popup = new mapboxgl.Popup({ offset: 25, className: 'card' })
-                .setHTML(`<h1>${stopName}!</h1>`)
+                .setHTML(`<div class="card" style={{width: "200px", height: "250px", borderRadius: "20px"}}>
+                    <img class="card-img-top" style={{height: "200px", borderRadius: "20px 20px 0 0"}} src=${mockData.cities.find(obj => { return obj["locationName"] === stopName})['image']} alt="Card image cap" />
+                    <div class="card-body text-center" style={{overflowX: "auto"}}>
+                        <h4>${stopName}</h4>
+                        <h5>Days: 2</h5>
+                    </div>
+                </div>`)
                 .setMaxWidth("300px")
                 .addTo(map);
 
@@ -59,7 +65,13 @@ const MapboxGLMap = (newProps) => {
         });
 
         var popup = new mapboxgl.Popup({ offset: 25, className: 'card' })
-            .setHTML(`<h1>Munich</h1>`)
+            .setHTML(`<div class="card" style={{width: "200px", height: "250px", borderRadius: "20px"}}>
+                <img class="card-img-top" style={{height: "200px", borderRadius: "20px 20px 0 0"}} src=${mockData.cities.find(obj => { return obj["locationName"] === 'Munich'})['image']} alt="Card image cap" />
+                <div class="card-body text-center" style={{overflowX: "auto"}}>
+                    <h4>Munich</h4>
+                    <h5>Days: 2</h5>
+                </div>
+            </div>`)
             .setMaxWidth("300px")
             .addTo(map);
 
@@ -127,24 +139,27 @@ class MapPage extends React.Component {
                                         <div className="row justify-content-center my-4">
                                             <a className="text-white" href={"#tiles"}>
                                                 <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
-                                                    <p className="h5 p-2 my-auto">Pick route</p>
+                                                    <p className="h5 p-1 my-auto">Pick route</p>
                                                 </button>
                                             </a>
+                                            <button type="submit" className="btn btn-primary mt-3" style={{backgroundColor: "#19393B", borderRadius: "20px", borderColor:"#19393B"}}>
+                                                <p className="h5 p-1 my-auto">Offset CO2 emissions</p>
+                                            </button>
                                         </div>
                                     </div>
                             <div className="col mr-4 border" style={{borderRadius: "0 20px 20px 0"}}>
                                 <div className="row bg-light my-4 flex-nowrap" style={{overflowX: "scroll"}}>
                                 {this.state.route.stopsList.map((item, i) => 
                                 <div className="px-4">
-                                    <div class="card" style={{width: "300px", height: "350px", borderRadius: "20px"}}>
-                                        <img class="card-img-top" style={{height: "200px", borderRadius: "20px 20px 0 0"}} src={mockData.cities.find(obj => { return obj["locationName"] === item})['image']} alt="Card image cap" />
+                                    <div class="card" style={{width: "300px", height: "400px", borderRadius: "20px"}}>
+                                        <img class="card-img-top" style={{height: "250px", borderRadius: "20px 20px 0 0"}} src={mockData.cities.find(obj => { return obj["locationName"] === item})['image']} alt="Card image cap" />
                                         <div class="card-body text-center" style={{overflowX: "auto"}}>
                                             <h4>{item}</h4>
                                             <p>{mockData.cities.find(obj => { return obj["locationName"] === item})['locationCountryName']}</p>
                                             <h5>Days: {this.state.route.dayslist[i]}</h5>
                                         </div>
                                     </div>
-                                    </div>
+                                </div>
                                 )}
                                 </div>
                             </div>

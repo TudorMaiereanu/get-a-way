@@ -6,7 +6,7 @@
             "locationLong": "4.805528",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,4,6,8,6,5,4,9,5,5,5,10,5],
             "population": "92,000",
             "locationCountryName": "France",
@@ -15,7 +15,8 @@
                 "first": "Yes",
                 "second": "May I transit this country? No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://img.travelawaits.com/filter:centercrop/quill/d/f/3/0/d/e/df30de52f1015a2707063d76b820f19413058cc8.jpg?w=800&h=800"
         },
         {
             "locationName": "Barcelona",
@@ -23,7 +24,7 @@
             "locationLong": "2.139914",
             "hasHike": "0",
             "hasSurf": "1",
-            "costValue": "3",
+            "costValue": "High",
             "weatherList": [5,5,4,9,9,6,6,6,9,6,6,6,9,6],
             "population": "5,500,000",
             "locationCountryName": "Spain",
@@ -32,7 +33,8 @@
                 "first": "Yes",
                 "second": "Passengers transiting the country with symptoms compatible with COVID-19 will be submitted to health controls.",
                 "third": "The use of mask is required on public roads, outdoor spaces and inside public places where it is not possible to guarantee the maintenance of a safety distance of at least 1.5 meters."
-            }
+            },
+            "image": "https://www.hotelartsbarcelona.com/app/uploads/2017/12/Top-10-cosas-que-hacer-en-brcelona-blog_post-mobile.jpg"
         },
         {
             "locationName": "Bayonne",
@@ -40,7 +42,7 @@
             "locationLong": "-1.474570",
             "hasHike": "0",
             "hasSurf": "1",
-            "costValue": "3",
+            "costValue": "High",
             "weatherList": [3,4,4,6,8,5,6,6,6,6,7,6,6,6],
             "population": "51,000",
             "locationCountryName": "France",
@@ -49,7 +51,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://lh3.googleusercontent.com/proxy/2L34KspwekE0AklcGKv3VtD704Ew5oYyjV-R09qv8keYxkDvwtt334jTE9rXOB0VmVxpVDB8CA_pBJpTZLVy_U0E5ZrfmG8mQVJWu4jrCAX5DHYqbNs9UEnO2Si_wLvchj83wgqsPmvGqtbgYnYzsHKl9ULZ4OMgmMsfNjf--gVnZkF3"
         },
         {
             "locationName": "Bordeaux",
@@ -57,7 +60,7 @@
             "locationLong": "-0.579920",
             "hasHike": "0",
             "hasSurf": "1",
-            "costValue": "3",
+            "costValue": "High",
             "weatherList": [4,3,4,6,10,5,6,6,6,6,6,6,9,6],
             "population": "250,000",
             "locationCountryName": "France",
@@ -66,7 +69,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "It is mandatory to wear masks in closed spaces, including means of transport, and in any situation where it's not possible to guarantee the interpersonal safety distance.\nAre arrangements for “closed door” (i.e. organised coach tours without intermediate pickup) tourism packages available? No"
-            }
+            },
+            "image": "https://scontent-ber1-1.xx.fbcdn.net/v/t1.0-9/61198168_2744366985579380_2689799925696299008_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=iPeR17OEsUUAX9r-NRe&_nc_ht=scontent-ber1-1.xx&oh=f07dcf984ed8f3a6c878d37c70a754a2&oe=5F23A885"
         },
         {
             "locationName": "Bozen",
@@ -74,7 +78,7 @@
             "locationLong": "11.358303",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,5,5,5,5,5,4,5,6,4,5,5,6,6],
             "population": "107,000",
             "locationCountryName": "Italy",
@@ -83,7 +87,8 @@
                 "first": "Yes",
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://www.bergwelten.com/files/touren/header/von-der-seceda-durch-das-cuecenatal-nach-st-ulrich-10229-0.jpg"
         },
         {
             "locationName": "Ceret",
@@ -91,7 +96,7 @@
             "locationLong": "2.748826",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,5,6,7,5,6,5,6,6,6,6,8,5],
             "population": "8,000",
             "locationCountryName": "France",
@@ -100,7 +105,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://pbs.twimg.com/media/D6MA5NyUIAAy10v.jpg"
         },
         {
             "locationName": "Chamonix",
@@ -108,7 +114,7 @@
             "locationLong": "6.867023",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [5,4,4,5,7,6,5,5,6,4,6,6,6,6],
             "population": "9,000",
             "locationCountryName": "France",
@@ -117,7 +123,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://i.pinimg.com/originals/bc/74/6d/bc746d6578a60cee4c35bdc5410ce44c.jpg"
         },
         {
             "locationName": "Colmar",
@@ -125,7 +132,7 @@
             "locationLong": "7.346901",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,4,6,6,5,6,7,6,4,6,5,5,5],
             "population": "70,000",
             "locationCountryName": "France",
@@ -134,7 +141,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://st.depositphotos.com/1420973/4185/i/950/depositphotos_41856731-stock-photo-colmar-petit-venice-bridge-water.jpg"
         },
         {
             "locationName": "Digne",
@@ -142,7 +150,7 @@
             "locationLong": "6.511940",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,4,6,9,9,6,6,6,5,6,6,6,5],
             "population": "16,000",
             "locationCountryName": "France",
@@ -151,7 +159,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://media0.trover.com/T/5570be118e7cb274b30018ed/fixedw.jpg"
         },
         {
             "locationName": "Geneva",
@@ -159,7 +168,7 @@
             "locationLong": "6.143020",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [5,4,4,6,7,6,4,5,6,5,5,6,6,6],
             "population": "499,000",
             "locationCountryName": "Switzerland",
@@ -168,7 +177,8 @@
                 "first": "Yes",
                 "second": "For all EU/EFTA member States as well as UK the free movement of person is restored. As from 15 June, temperature checks will be carried out on all passengers arriving on direct flights from Sweden.",
                 "third": "No, however the use of masks is strongly recommended in places where physical distancing of 2 metres cannot be observed, such as in public transport."
-            }
+            },
+            "image": "https://www.tcs.ch/mam/Digital-Media/Images/Photos/weblication/wThumbnails/nirgends-wird-teurer-um-den-job-gestritten-als-in-genf-6791086a04aa39fg3bcca5c0630bc8a2.jpeg"
         },
         {
             "locationName": "Genoa",
@@ -176,7 +186,7 @@
             "locationLong": "8.946882",
             "hasHike": "0",
             "hasSurf": "1",
-            "costValue": "3",
+            "costValue": "High",
             "weatherList": [4,5,4,6,6,6,6,6,7,6,7,6,6,6],
             "population": "590,000",
             "locationCountryName": "Italy",
@@ -185,7 +195,8 @@
                 "first": "Yes",
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://lh3.googleusercontent.com/proxy/ajUjQ2pfiXdIlwqkBmTl31AdAJ6n8OE0MDOCBAKB3iJ32KGocb0bBtgA2XG8aV6fxuPu7doaksvPvXCme59eQtKV5cyidI8aE2oZA_Wa617AxgjSBOjq_aexwHzBQ-PLjB1ycHACJfXDTkI0o_oUaC8ScoFh55gem-3zrKVpwPH-vTA"
         },
         {
             "locationName": "Girona",
@@ -193,7 +204,7 @@
             "locationLong": "2.826289",
             "hasHike": "0",
             "hasSurf": "1",
-            "costValue": "3",
+            "costValue": "High",
             "weatherList": [4,4,4,7,6,6,6,6,9,6,6,7,6,6],
             "population": "760,000",
             "locationCountryName": "Italy",
@@ -202,7 +213,8 @@
                 "first": "Yes",
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://pyxis.nymag.com/v1/imgs/896/0c3/3fcb4fd4813aac5aab71d76edccc943353-barcelona-girona.2x.rsquare.w536.jpg"
         },
         {
             "locationName": "Lyon",
@@ -210,7 +222,7 @@
             "locationLong": "4.861118",
             "hasHike": "0",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,4,6,6,5,5,6,5,4,6,6,6,6],
             "population": "513,000",
             "locationCountryName": "France",
@@ -219,7 +231,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://images.mansionglobal.com/im-169605?width=1280&size=1"
         },
         {
             "locationName": "Marseille",
@@ -227,7 +240,7 @@
             "locationLong": "5.369780",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,4,9,9,9,6,5,9,6,5,10,8,6],
             "population": "270,000",
             "locationCountryName": "France",
@@ -236,7 +249,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://www.solosophie.com/photos-postcard-from-marseilles-provence/"
         },
         {
             "locationName": "Mayrhofen",
@@ -244,7 +258,7 @@
             "locationLong": "11.861360",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [3,4,3,5,7,6,4,6,5,5,5,5,7,7],
             "population": "4,000",
             "locationCountryName": "Austria",
@@ -253,7 +267,8 @@
                 "first": "Yes",
                 "second": "Travelers from the following countries can enter or leave Austria without restrictions: Andorra, Belgium, Bulgaria, Denmark, Germany, Estonia, Finland, France, Greece, Ireland, Iceland, Italy, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg , Malta, Monaco, Netherlands, Norway, Poland, Romania, San Marino, Switzerland, Slovakia, Slovenia, Spain, Czech Republic, Hungary, Vatican and Cyprus.",
                 "third": "Yes, a mask must be worn in certain areas: In public transport and taxis, at events in closed rooms (except at the assigned seat), in cable cars and cogwheel trains, coaches and inside excursion boats, in pharmacies and at services, if the 1 meter distance cannot be maintained or no other protective measures (e.g. plexiglass pane) are available."
-            }
+            },
+            "image": "https://live.staticflickr.com/3552/13068744365_a1c1f68d77_b.jpg"
         },
         {
             "locationName": "Mende",
@@ -261,7 +276,7 @@
             "locationLong": "3.498650",
             "hasHike": "0",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,4,6,9,6,6,6,5,5,6,6,9,6],
             "population": "12,000",
             "locationCountryName": "France",
@@ -270,7 +285,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://i.guim.co.uk/img/media/5ba7f42e4b29f40cde73ec04723b724f53f923ac/0_137_6000_3600/master/6000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1350a44f3fd33a42bd5bb6daaba9d350"
         },
         {
             "locationName": "Milan",
@@ -278,7 +294,7 @@
             "locationLong": "9.203486",
             "hasHike": "0",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [3,4,5,6,6,6,4,5,4,4,6,6,6,5],
             "population": "1,350,000",
             "locationCountryName": "Italy",
@@ -287,7 +303,8 @@
                 "first": "Yes",
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://i2-prod.mirror.co.uk/incoming/article10923710.ece/ALTERNATES/s1200c/Milan-Cathedral-at-sunrise.jpg"
         },
         {
             "locationName": "Montpellier",
@@ -295,7 +312,7 @@
             "locationLong": "3.880717",
             "hasHike": "0",
             "hasSurf": "1",
-            "costValue": "3",
+            "costValue": "High",
             "weatherList": [4,4,4,9,9,6,5,6,6,6,5,5,9,6],
             "population": "270,000",
             "locationCountryName": "France",
@@ -304,7 +321,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Centre_ville_de_Montpellier_%2828407697916%29.jpg"
         },
         {
             "locationName": "Munich",
@@ -312,7 +330,7 @@
             "locationLong": "11.575453",
             "hasHike": "1",
             "hasSurf": "1",
-            "costValue": "3",
+            "costValue": "High",
             "weatherList": [4,4,3,5,6,6,5,5,6,4,6,6,6,7],
             "population": "1,400,000",
             "locationCountryName": "Germany",
@@ -321,7 +339,8 @@
                 "first": "Yes",
                 "second": "A compulsory 14 day quarantine applies when coming from the following EU countries: Sweden.",
                 "third": "Since late April, all federal states have required everyone to cover nose and mouth with an ordinary (non-medical) mask when using public transport and in shops. According to the Robert Koch Institute, wearing a mask can help reduce the risk of infection."
-            }
+            },
+            "image": "https://www.inlingua-muenchen.de/fileadmin/_processed_/9/3/csm_Muenchen_vor_Bergpanorama_ece282f748.jpg"
         },
         {
             "locationName": "Paris",
@@ -329,7 +348,7 @@
             "locationLong": "2.358878",
             "hasHike": "0",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,3,6,6,6,6,6,6,6,6,6,6,6],
             "population": "2,148,000",
             "locationCountryName": "France",
@@ -338,7 +357,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://www.tripsavvy.com/thmb/zn9PYFaVuN7IGDe3ibsOOmzCVjs=/2576x2576/smart/filters:no_upscale()/view-of-eiffel-tower-between-trees--paris--france-820243336-5acb7b5ea9d4f900374384ae.jpg"
         },
         {
             "locationName": "Rodez",
@@ -346,7 +366,7 @@
             "locationLong": "2.573550",
             "hasHike": "0",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [5,4,3,6,10,5,5,6,5,4,6,6,6,6],
             "population": "24,000",
             "locationCountryName": "France",
@@ -355,7 +375,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://i.pinimg.com/originals/40/aa/c4/40aac443451ec94463a1d419f67c1f96.jpg"
         },
         {
             "locationName": "Saint-Étienne",
@@ -363,7 +384,7 @@
             "locationLong": "4.387810",
             "hasHike": "0",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,4,4,6,7,5,5,6,6,5,6,6,6,6],
             "population": "170,000",
             "locationCountryName": "France",
@@ -372,7 +393,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg/1200px-Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg"
         },
         {
             "locationName": "St. Moritz",
@@ -380,7 +402,7 @@
             "locationLong": "9.845281",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [3,3,4,5,6,5,4,6,5,4,6,6,6,6],
             "population": "5,000",
             "locationCountryName": "Switzerland",
@@ -389,7 +411,8 @@
                 "first": "Yes",
                 "second": "For all EU/EFTA member States as well as UK the free movement of person is restored. As from 15 June, temperature checks will be carried out on all passengers arriving on direct flights from Sweden.",
                 "third": "No, however the use of masks is strongly recommended in places where physical distancing of 2 metres cannot be observed, such as in public transport."
-            }
+            },
+            "image": "https://lh3.googleusercontent.com/proxy/NEtvbwYTmHcyImbw52mUEpc_6Fkneg1y4VCM2aVn_u82HcwRbKi6uNbOg2sLmmHw4EfSOmy7cdNlxknC7N_W_OAlktNiyF_MwpgMU8SR4PjlkpVQdbGvYWHbvi9dFRmhNr7PeM1q-OyEeg"
         },
         {
             "locationName": "Strasbourg",
@@ -397,7 +420,7 @@
             "locationLong": "7.752111",
             "hasHike": "0",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,3,3,6,6,5,5,6,7,4,5,4,5,6],
             "population": "277,000",
             "locationCountryName": "France",
@@ -406,7 +429,8 @@
                 "first": "Yes",
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
-            }
+            },
+            "image": "http://www.commontoff.com/wp-content/uploads/2016/08/houses-1440x1440.jpg"
         },
         {
             "locationName": "Titisee-Neustadt",
@@ -414,7 +438,7 @@
             "locationLong": "8.214160",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,3,4,6,7,5,6,6,7,4,6,5,5,6],
             "population": "12,000",
             "locationCountryName": "Germany",
@@ -423,7 +447,8 @@
                 "first": "Yes",
                 "second": "A compulsory 14 day quarantine applies when coming from the following EU countries: Sweden.",
                 "third": "Since late April, all federal states have required everyone to cover nose and mouth with an ordinary (non-medical) mask when using public transport and in shops. According to the Robert Koch Institute, wearing a mask can help reduce the risk of infection."
-            }
+            },
+            "image": "https://www.topin.travel/wp-content/themes/topin/uploadedImages/1519881603_Boot_auf_dem_Titisee_Bild2.jpg"
         },
         {
             "locationName": "Zurich",
@@ -431,7 +456,7 @@
             "locationLong": "8.540324",
             "hasHike": "1",
             "hasSurf": "0",
-            "costValue": "1",
+            "costValue": "Low",
             "weatherList": [4,5,3,6,7,6,5,6,7,4,6,5,5,7],
             "population": "400,000",
             "locationCountryName": "Switzerland",
@@ -440,7 +465,8 @@
                 "first": "Yes",
                 "second": "For all EU/EFTA member States as well as UK the free movement of person is restored. As from 15 June, temperature checks will be carried out on all passengers arriving on direct flights from Sweden.",
                 "third": "No, however the use of masks is strongly recommended in places where physical distancing of 2 metres cannot be observed, such as in public transport."
-            }
+            },
+            "image": "https://leger.imgix.net/Destinations/Switzerland_D4/Zurich_P3036/zurich-19612.jpg?fit=crop&crop=edges&w=1080&h=1080&auto=compress"
         }
     ],
     "routes": [

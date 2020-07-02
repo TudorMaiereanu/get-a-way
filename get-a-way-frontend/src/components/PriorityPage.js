@@ -59,7 +59,7 @@ class PriorityPage extends React.Component {
                         In order to find the perfect route for you, we would like to know more about what you value in your travels
                     </p>
                     <div className="d-flex justify-content-center">
-                        <form onSubmit={this.handleSubmit}>
+                        <div>
                             <div className="row mt-5">
                                 <div className="col">
                                     <p className="h5 text-left ml-5" for="startLocation">Reduce COVID-19 exposure</p>
@@ -120,13 +120,13 @@ class PriorityPage extends React.Component {
                             </div>
 
                             <div className="text-center mt-5">
-                                <button type="submit" className="btn btn-primary mt-5" style={{backgroundColor: "#eb401d"}}>
-                                    <a href={"#routes"} className="text-white">
-                                        Get a way
-                                    </a>
-                                </button>
+                                <a href={"#routes"} className="text-white">
+                                    <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
+                                            <p className="h4 p-2 my-auto">Get a way</p>
+                                    </button>
+                                </a>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </Page>

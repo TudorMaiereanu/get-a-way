@@ -31,7 +31,6 @@ class StartPage extends React.Component {
                     <p className="h1 text-center" style={{paddingTop: "50px"}}>Tailor-made road trips.</p>
                     <p className="h2 mt-3 text-center">Detour Corona. Reduce emissions. Save time.</p>
                     <div className="container">
-                        <form onSubmit={this.handleSubmit}>
                             <div className="mt-5" style={{horizontalAlign: "middle"}}>
                                 <p className="h4 mb-3 text-center" for="startLocation">From</p>
                                 <select className="form-control"
@@ -44,7 +43,26 @@ class StartPage extends React.Component {
                                 >
                                     <option hidden>Select starting point</option>
                                     <option value="Munich">Munich</option>
-                                    <option value="Budapest">Budapest</option>
+                                    <option value="Munich">Hamburg</option>
+                                    <option value="Munich">Berlin</option>
+                                    <option value="Munich">Bremen</option>
+                                    <option value="Munich">Budapest</option>
+                                    <option value="Munich">Bucharest</option>
+                                    <option value="Munich">Paris</option>
+                                    <option value="Munich">Madrid</option>
+                                    <option value="Munich">Barcelona</option>
+                                    <option value="Munich">Copenhagen</option>
+                                    <option value="Munich">Prague</option>
+                                    <option value="Munich">Rome</option>
+                                    <option value="Munich">Vienna</option>
+                                    <option value="Munich">Amsterdam</option>
+                                    <option value="Munich">Lisbon</option>
+                                    <option value="Munich">Venice</option>
+                                    <option value="Munich">Florence</option>
+                                    <option value="Munich">Stockholm</option>
+                                    <option value="Munich">Porto</option>
+                                    <option value="Munich">Krakow</option>
+                                    <option value="Munich">Zurich</option>
                                 </select>
                             </div>
                             <div className="mt-5">
@@ -59,7 +77,26 @@ class StartPage extends React.Component {
                                 >
                                     <option hidden>Select destination</option>
                                     <option value="Barcelona">Barcelona</option>
-                                    <option value="Lisbon">Lisbon</option>
+                                    <option value="Barcelona">Hamburg</option>
+                                    <option value="Barcelona">Berlin</option>
+                                    <option value="Barcelona">Bremen</option>
+                                    <option value="Barcelona">Budapest</option>
+                                    <option value="Barcelona">Bucharest</option>
+                                    <option value="Barcelona">Paris</option>
+                                    <option value="Barcelona">Madrid</option>
+                                    <option value="Barcelona">Munich</option>
+                                    <option value="Barcelona">Copenhagen</option>
+                                    <option value="Barcelona">Prague</option>
+                                    <option value="Barcelona">Rome</option>
+                                    <option value="Barcelona">Vienna</option>
+                                    <option value="Barcelona">Amsterdam</option>
+                                    <option value="Barcelona">Lisbon</option>
+                                    <option value="Barcelona">Venice</option>
+                                    <option value="Barcelona">Florence</option>
+                                    <option value="Barcelona">Stockholm</option>
+                                    <option value="Barcelona">Porto</option>
+                                    <option value="Barcelona">Krakow</option>
+                                    <option value="Barcelona">Zurich</option>
                                 </select>
                             </div>
                             
@@ -69,14 +106,13 @@ class StartPage extends React.Component {
                                     <Calendar/>
                                 </div>
                             </div>
-                            <div className="text-center">
-                                <button type="submit" className="btn btn-primary mt-3 text-center" style={{backgroundColor: "#eb401d"}}>
-                                    <a href={`#priority/origin=${this.state.startLocation}&destination=${this.state.endLocation}`} className="text-white">
-                                        Set priorities
-                                    </a>
-                                </button>
+                            <div className="text-center mt-3">
+                                <a href={`#priority/origin=${this.state.startLocation}&destination=${this.state.endLocation}`} className="text-white">
+                                    <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
+                                            <p className="h4 p-2 my-auto">Set priorities</p>
+                                    </button>
+                                </a>
                             </div>
-                        </form>
                     </div>
                 </div>
             </Page>

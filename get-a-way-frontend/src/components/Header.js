@@ -20,10 +20,10 @@ class Header extends React.Component {
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item my-auto">
-                            <a class="nav-link text-white h3"  href="#login">Login</a>
+                            <a class="nav-link text-white h4"  href="#login">Login</a>
                         </li>
                         <li class="nav-item my-auto">
-                            <a class="nav-link text-white h3"  href="#register">Register</a>
+                            <a class="nav-link text-white h4"  href="#register">Register</a>
                         </li>
                     </ul>
                 </div>

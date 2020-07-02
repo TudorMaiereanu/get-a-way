@@ -14,8 +14,8 @@ class RouteSelectionPage extends React.Component {
 
         this.state = {
             routes: {
-                "1": mockData.routes[2],
-                "2": mockData.routes[1],
+                "1": mockData.routes[1],
+                "2": mockData.routes[2],
                 "3": mockData.routes[0],
             }
         };
@@ -63,7 +63,7 @@ class RouteSelectionPage extends React.Component {
                                             Hiking stops: {this.state.routes[routeIndex].hikeActivitiesNumber}
                                         </div>
                                         <div className="row justify-content-center mt-4">
-                                            <a className="text-white" href={"#tiles"}>
+                                            <a className="text-white" href={"#map"}>
                                                 <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d"}}>
                                                     Pick route
                                                 </button>

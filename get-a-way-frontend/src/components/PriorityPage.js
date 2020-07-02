@@ -62,7 +62,7 @@ class PriorityPage extends React.Component {
                         <form onSubmit={this.handleSubmit}>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Reduce COVID-19 Exposure</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Reduce COVID-19 exposure</p>
                                 </div>
                                 <div className="col">
                                     <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.coronaPriority} onChange={this.handleChangeCoronaPriority}/>
@@ -70,7 +70,7 @@ class PriorityPage extends React.Component {
                             </div>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Improve Weather”</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Havel ideal weather”</p>
                                 </div>
                                 <div className="col">
                                     <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.weatherPriority} onChange={this.handleChangeWeatherPriority}/>
@@ -78,7 +78,7 @@ class PriorityPage extends React.Component {
                             </div>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Lower Costs</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Lower costs</p>
                                 </div>
                                 <div className="col">
                                     <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.costPriority} onChange={this.handleChangeCostPriority}/>
@@ -86,7 +86,7 @@ class PriorityPage extends React.Component {
                             </div>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Minimize Carbon-Footprint</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Minimize carbon-footprint</p>
                                 </div>
                                 <div className="col">
                                     <InputRange type="range" min="0" max="1" step="0.05" value={this.state.emissionPriority} onChange={this.handleChangeEmissionPriority}/>
@@ -94,7 +94,7 @@ class PriorityPage extends React.Component {
                             </div>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Shorten Travel Time</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Shorten travel time</p>
                                 </div>
                                 <div className="col">
                                     <InputRange type="range" min="0" max="1" step="0.05" value={this.state.timePriority} onChange={this.handleChangeTimePriority}/>
@@ -102,7 +102,7 @@ class PriorityPage extends React.Component {
                             </div>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Go Surfing</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Go surfing</p>
                                 </div>
                                 <div className="col text-center">
                                     <CheckBox id="checkbox1" type="checkbox" />
@@ -111,7 +111,7 @@ class PriorityPage extends React.Component {
                             </div>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Go Hiking</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Go hiking</p>
                                 </div>
                                 <div className="col text-center">
                                     <CheckBox id="checkbox2" type="checkbox" />

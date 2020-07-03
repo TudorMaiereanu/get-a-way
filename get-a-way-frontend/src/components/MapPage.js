@@ -136,13 +136,15 @@ class MapPage extends React.Component {
                                         <div className="pl-3 row mx-auto">
                                             <p style={{fontSize: "17px"}}>Hiking stops: {this.state.route.hikeActivitiesNumber}</p>
                                         </div>
-                                        <div className="row justify-content-center my-4">
+                                        <div className="row justify-content-center my-3">
                                             <a className="text-white" href={"#tiles"}>
                                                 <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
                                                     <p className="h5 p-1 my-auto">Details</p>
                                                 </button>
                                             </a>
-                                            <button type="submit" className="btn btn-primary mt-3" style={{backgroundColor: "#19393B", borderRadius: "20px", borderColor:"#19393B"}}>
+                                        </div>
+                                        <div className="row justify-content-center">
+                                            <button type="submit" className="btn btn-primary" style={{backgroundColor: "#19393B", borderRadius: "20px", borderColor:"#19393B"}}>
                                                 <p className="h5 p-1 my-auto">Offset CO2 emissions</p>
                                             </button>
                                         </div>

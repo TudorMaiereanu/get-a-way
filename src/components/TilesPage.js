@@ -139,7 +139,7 @@ class RouteSelectionPage extends React.Component {
                                 </div>
                                 <div className="row mt-4">
                                     <div className="col mx-5">
-                                        <img src={`https://github.com/TudorMaiereanu/get-a-way/blob/master/get-a-way-backend/src/data/${item.locationName}.png?raw=true`} width="100%" style={{borderRadius: "20px"}}/>
+                                        <img src={`https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/src/data/${item.locationName}.png?raw=true`} width="100%" style={{borderRadius: "20px"}}/>
                                         <p className="h5">Total population: {item.population} people</p>
                                     </div>
                                 </div>

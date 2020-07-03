@@ -1,11 +1,12 @@
 {
-  "name": "get-a-way-frontend",
+  "name": "get-a-way",
   "version": "0.0.1",
   "description": "Get a way application frontend",
   "private": true,
+  "homepage": "http://TudorMaiereanu.github.io/get-a-way",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TudorMaiereanu/get-a-way-frontend"
+    "url": "https://github.com/TudorMaiereanu/get-a-way"
   },
   "author": "aiofthetiger",
   "engines": {
@@ -20,6 +21,7 @@
     "clean-webpack-plugin": "0.1.17",
     "css-loader": "0.28.7",
     "extract-text-webpack-plugin": "3.0.1",
+    "gh-pages": "^3.1.0",
     "html-loader": "0.4.5",
     "html-webpack-plugin": "2.29.0",
     "style-loader": "0.19.0",
@@ -46,6 +48,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
-    "start": "webpack-dev-server --open 'Google Chrome' --config webpack.dev.js"
+    "start": "webpack-dev-server --open 'Google Chrome' --config webpack.dev.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

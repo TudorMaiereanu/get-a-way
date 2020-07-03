@@ -203,9 +203,9 @@
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://lh3.googleusercontent.com/proxy/hmCOJ0G1L1I4D6dCCaVBNjaWEOiWBsrBEsT4Bv_4_xt2QhYr4LIWk-TNSHYUfttUFp67_aKWK7PmY5_ZiicFOkVwTmMcunV92gCDLMvNCihn8wo3Ilb0B1yjB0ONRrK3skCENSGiNOQo1ZU45Jnx2qVu8Zl68HTsAeNsC4RHJM8-RjM",
-            "image2": "https://www.jetsetter.com/uploads/sites/7/2018/11/GettyImages-163739027-1380x1380.jpg",
-            "image3": "https://specials-images.forbesimg.com/imageserve/5e132be54e291700061a88aa/960x0.jpg?fit=scale"
+            "image": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/Genoa1.jpg?raw=true",
+            "image2": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/Genoa2.jpg?raw=true",
+            "image3": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/Genoa3.jpg?raw=true"
         },
         {
             "locationName": "Girona",
@@ -425,9 +425,9 @@
                 "second": "For all EU/EFTA member States as well as UK the free movement of person is restored. As from 15 June, temperature checks will be carried out on all passengers arriving on direct flights from Sweden.",
                 "third": "No, however the use of masks is strongly recommended in places where physical distancing of 2 metres cannot be observed, such as in public transport."
             },
-            "image": "https://lh3.googleusercontent.com/proxy/3fOX68CKY5wFa_qJqj7a_COc-DefBwVO0gtHgCZeSXrFOADFddewhvrIFQcX7MO60MZZV4H8NWlKVhHsP_Ujzl9j5YjfQRmII2ypNohgcj3HY4je13hm4qheic_0welpSuPZfgjWwhgRHw",
-            "image2": "https://d1xyolhen8fnqh.cloudfront.net/media/hotels/slideshow_images_staged/large/1102072.jpg",
-            "image3": "https://www.topin.travel/wp-content/themes/topin/uploadedImages/1536841127_csm_Zug_Matterhorn_Glacierexpress_Schlumpf.jpg"
+            "image": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/St.Moritz1.jpg?raw=true",
+            "image2": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/St.Moritz2.jpg?raw=true",
+            "image3": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/St.Moritz3.jpg?raw=true"
         },
         {
             "locationName": "Strasbourg",

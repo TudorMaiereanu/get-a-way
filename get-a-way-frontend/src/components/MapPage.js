@@ -14,7 +14,7 @@ const styles = {
 };
 
 const mockData = require('./constants/mockData');
-const routeIndex = "2";
+const routeIndex = "3";
 
 const MapboxGLMap = (newProps) => {
     const [props, setProps] = useState(newProps);
@@ -139,7 +139,7 @@ class MapPage extends React.Component {
                                         <div className="row justify-content-center my-4">
                                             <a className="text-white" href={"#tiles"}>
                                                 <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
-                                                    <p className="h5 p-1 my-auto">Pick route</p>
+                                                    <p className="h5 p-1 my-auto">Details</p>
                                                 </button>
                                             </a>
                                             <button type="submit" className="btn btn-primary mt-3" style={{backgroundColor: "#19393B", borderRadius: "20px", borderColor:"#19393B"}}>

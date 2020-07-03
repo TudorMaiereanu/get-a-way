@@ -14,7 +14,7 @@ class RouteSelectionPage extends React.Component {
 
         this.state = {
             routes: {
-                "1": mockData.routes[1],
+                "1": mockData.routes[3],
                 "2": mockData.routes[2],
                 "3": mockData.routes[0],
             }
@@ -51,7 +51,7 @@ class RouteSelectionPage extends React.Component {
                                             <p style={{fontSize: "17px"}}> Cost: {this.state.routes[routeIndex].cost}</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
-                                            <p style={{fontSize: "17px"}}> Carbon Footprint: CO2e kg</p>
+                                            <p style={{fontSize: "17px"}}> Carbon Footprint: {this.state.routes[routeIndex].emission} CO2e kg</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
                                             <p style={{fontSize: "17px"}}>Travel Time: {this.state.routes[routeIndex].travelTime} h</p>
@@ -75,7 +75,8 @@ class RouteSelectionPage extends React.Component {
                                         {this.state.routes[routeIndex].stopsList.map((item, i) => 
                                         <div className="px-4">
                                             <div class="card" style={{width: "300px", height: "350px", borderRadius: "20px"}}>
-                                                <img class="card-img-top" style={{height: "200px", borderRadius: "20px 20px 0 0"}} src={mockData.cities.find(obj => { return obj["locationName"] === item})['image']} alt="Card image cap" />
+                                                <img class="card-img-top" style={{height: "200px", borderRadius: "20px 20px 0 0"}} src={mockData.cities.find(obj => { console.log(item)
+                                                    return obj["locationName"] === item})['image']} alt="Card image cap" />
                                                 <div class="card-body text-center" style={{overflowX: "auto"}}>
                                                     <h4>{item}</h4>
                                                     <p>{mockData.cities.find(obj => { return obj["locationName"] === item})['locationCountryName']}</p>

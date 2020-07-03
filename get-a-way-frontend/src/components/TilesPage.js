@@ -5,7 +5,7 @@ import React from 'react';
 import ItemsCarousel from 'react-items-carousel';
 
 const mockData = require('./constants/mockData');
-const routeIndex = "2";
+const routeIndex = "3";
 
 import Page from './Page';
 
@@ -81,7 +81,7 @@ class RouteSelectionPage extends React.Component {
                                     <h1 className="mt-3">{item.locationName}</h1>
                                 </div>
                                 <div className="row mb-5 mx-3">
-                                    <p className="h5">{item.locationDescription}</p>
+                                    <p className="h4">{item.locationDescription}</p>
                                 </div>
                                 <div className="row mb-2">
                                     <div class="col-5 mt-3" style={{maxWidth: "1000px"}}>
@@ -122,12 +122,12 @@ class RouteSelectionPage extends React.Component {
                                         <div className="m-3">
                                             <h2>Restrictions in {item.locationCountryName}</h2>
                                             <div className="mt-4" style={{height: "400px", overflowY: "auto"}}>
-                                                <p className="h4">May I freely move within this country?</p>
-                                                <p className="mb-4" style={{fontSize: "18px"}} >{item.locationRegulations.first}</p>
-                                                <p className="h4">May I transit this country?</p>
-                                                <p className="mb-4" style={{fontSize: "17px"}}>{item.locationRegulations.second}</p>
-                                                <p className="h4">Is a mask required in public? </p>
-                                                <p style={{fontSize: "18px"}} >{item.locationRegulations.second}</p>
+                                                <p className="h3">May I freely move within this country?</p>
+                                                <p className="h4 mb-4" style={{fontSize: "18px"}} >{item.locationRegulations.first}</p>
+                                                <p className="h3">May I transit this country?</p>
+                                                <p className="h4 mb-4">{item.locationRegulations.second}</p>
+                                                <p className="h3">Is a mask required in public? </p>
+                                                <p className="h4" >{item.locationRegulations.second}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@ class RouteSelectionPage extends React.Component {
                                         <div className="col">
                                             <button type="button" className="btn btn-default btn-lg">
                                                 <i className={this.state.weatherMockDict[iconValue]}></i>
-                                                <p className="text-center">{25- iconValue}° C</p>
+                                                <p className="text-center h4">{25- iconValue}° C</p>
                                             </button>
                                         </div>
                                         )}

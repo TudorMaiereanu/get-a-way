@@ -52,7 +52,7 @@
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://lh3.googleusercontent.com/proxy/2L34KspwekE0AklcGKv3VtD704Ew5oYyjV-R09qv8keYxkDvwtt334jTE9rXOB0VmVxpVDB8CA_pBJpTZLVy_U0E5ZrfmG8mQVJWu4jrCAX5DHYqbNs9UEnO2Si_wLvchj83wgqsPmvGqtbgYnYzsHKl9ULZ4OMgmMsfNjf--gVnZkF3"
+            "image": "https://farm66.staticflickr.com/65535/49463469842_57d3ae4783_b.jpg"
         },
         {
             "locationName": "Bordeaux",
@@ -196,7 +196,7 @@
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://lh3.googleusercontent.com/proxy/ajUjQ2pfiXdIlwqkBmTl31AdAJ6n8OE0MDOCBAKB3iJ32KGocb0bBtgA2XG8aV6fxuPu7doaksvPvXCme59eQtKV5cyidI8aE2oZA_Wa617AxgjSBOjq_aexwHzBQ-PLjB1ycHACJfXDTkI0o_oUaC8ScoFh55gem-3zrKVpwPH-vTA"
+            "image": "https://www.jetsetter.com/uploads/sites/7/2018/11/GettyImages-163739027-1380x1380.jpg"
         },
         {
             "locationName": "Girona",
@@ -250,7 +250,7 @@
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://www.solosophie.com/photos-postcard-from-marseilles-provence/"
+            "image": "https://i.pinimg.com/originals/d6/d8/1b/d6d81b486dbf1d7aea4337c7defd988c.jpg"
         },
         {
             "locationName": "Mayrhofen",
@@ -379,7 +379,7 @@
             "image": "https://i.pinimg.com/originals/40/aa/c4/40aac443451ec94463a1d419f67c1f96.jpg"
         },
         {
-            "locationName": "Saint-Étienne",
+            "locationName": "Saint Etienne",
             "locationLat": "45.439651",
             "locationLong": "4.387810",
             "hasHike": "0",
@@ -397,7 +397,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg/1200px-Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg"
         },
         {
-            "locationName": "St. Moritz",
+            "locationName": "St.Moritz",
             "locationLat": "46.497679",
             "locationLong": "9.845281",
             "hasHike": "1",
@@ -412,7 +412,7 @@
                 "second": "For all EU/EFTA member States as well as UK the free movement of person is restored. As from 15 June, temperature checks will be carried out on all passengers arriving on direct flights from Sweden.",
                 "third": "No, however the use of masks is strongly recommended in places where physical distancing of 2 metres cannot be observed, such as in public transport."
             },
-            "image": "https://lh3.googleusercontent.com/proxy/NEtvbwYTmHcyImbw52mUEpc_6Fkneg1y4VCM2aVn_u82HcwRbKi6uNbOg2sLmmHw4EfSOmy7cdNlxknC7N_W_OAlktNiyF_MwpgMU8SR4PjlkpVQdbGvYWHbvi9dFRmhNr7PeM1q-OyEeg"
+            "image": "https://d1xyolhen8fnqh.cloudfront.net/media/hotels/slideshow_images_staged/large/1102072.jpg"
         },
         {
             "locationName": "Strasbourg",
@@ -479,7 +479,8 @@
             "surfActivitiesNumber": "3",
             "travelTime": "34",
             "stopsList": ["Zurich", "Montpellier", "Barcelona", "Lyon" , "Geneva"],
-            "dayslist": [2,3,3,3,3]
+            "dayslist": [2,3,3,3,3],
+            "emission": "473"
         },
         {
             "routeIndex": "2",
@@ -490,7 +491,8 @@
             "surfActivitiesNumber": "3",
             "travelTime": "35",
             "stopsList": ["Colmar","Avignon","Ceret","Barcelona","Mende", "Titisee-Neustadt"],
-            "dayslist": [2,1,3,3,2,3]
+            "dayslist": [2,1,3,3,2,3],
+            "emission": "519"
         },
         {
             "routeIndex": "3",
@@ -501,7 +503,8 @@
             "surfActivitiesNumber": "3",
             "travelTime": "42",
             "stopsList": ["Mayrhofen","Bozen","Digne","Girona","Barcelona","Rodez","Chamonix"],
-            "dayslist": [2,2,1,2,3,2,2]
+            "dayslist": [2,2,1,2,3,2,2],
+            "emission": "549"
         },
         {
             "routeIndex": "4",
@@ -511,8 +514,9 @@
             "hikeActivitiesNumber": "2",
             "surfActivitiesNumber": "9",
             "travelTime": "46",
-            "stopsList": ["St. Moritz", "Genoa", "Marseille", "Barcelona" , "Bayonne", "Bordeaux", "Saint Etienne"],
-            "dayslist": [2,2,2,3,2,2,1]
+            "stopsList": ["St.Moritz", "Genoa", "Marseille", "Barcelona" , "Bayonne", "Bordeaux", "Saint Etienne"],
+            "dayslist": [2,2,2,3,2,2,1],
+            "emission": "609"
         },
         {
             "routeIndex": "5",
@@ -523,7 +527,8 @@
             "surfActivitiesNumber": "5",
             "travelTime": "40",
             "stopsList": ["Zurich", "Milan", "Avignon", "Barcelona", "Bordeaux", "Paris", "Strasbourg"],
-            "dayslist": [2,2,1,3,2,3,1]
+            "dayslist": [2,2,1,3,2,3,1],
+            "emission": "625"
         }
     ]
 }

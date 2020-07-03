@@ -123,7 +123,7 @@ class RouteSelectionPage extends React.Component {
                                             <h2>Corona restrictions in {item.locationCountryName}</h2>
                                             <div className="mt-4" style={{height: "400px", overflowY: "auto"}}>
                                                 <p className="h3">May I freely move within this country?</p>
-                                                <p className="h4 mb-4" style={{fontSize: "18px"}} >{item.locationRegulations.first}</p>
+                                                <p className="h4 mb-4">{item.locationRegulations.first}</p>
                                                 <p className="h3">May I transit this country?</p>
                                                 <p className="h4 mb-4">{item.locationRegulations.second}</p>
                                                 <p className="h3">Is a mask required in public? </p>

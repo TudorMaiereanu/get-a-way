@@ -57,10 +57,10 @@ class RouteSelectionPage extends React.Component {
                                             <p style={{fontSize: "17px"}}>Travel Time: {this.state.routes[routeIndex].travelTime} h</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
-                                            <p style={{fontSize: "17px"}}>Surfing stops: {this.state.routes[routeIndex].surfActivitiesNumber}</p>
+                                            <p style={{fontSize: "17px"}}>Surfing spots: {this.state.routes[routeIndex].surfActivitiesNumber}</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
-                                            <p style={{fontSize: "17px"}}>Hiking stops: {this.state.routes[routeIndex].hikeActivitiesNumber}</p>
+                                            <p style={{fontSize: "17px"}}>Hiking spots: {this.state.routes[routeIndex].hikeActivitiesNumber}</p>
                                         </div>
                                         <div className="row justify-content-center my-4">
                                             <a className="text-white" href={"#map"}>

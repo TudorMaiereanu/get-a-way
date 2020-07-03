@@ -15,7 +15,7 @@ module.exports = {
         'app': path.resolve(__dirname,'src/index.js')
     },
     output: {
-        path: path.resolve(__dirname,'dist'),
+        path: path.resolve(__dirname,'build'),
         filename: 'scripts/[name].js'
     },
     module: {
@@ -52,7 +52,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(['build']),
         new webpack.optimize.CommonsChunkPlugin({name: "vendor", minChunks: Infinity,}),
         new HtmlWebpackPlugin({
             template: './src/index.html',

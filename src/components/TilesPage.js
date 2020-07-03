@@ -97,10 +97,10 @@ class RouteSelectionPage extends React.Component {
                                                         <img class="d-block w-100" src={item.image} height="400px" width="400px" alt="First slide"/>
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img class="d-block w-100" src={item.image} height="400px" width="400px" alt="Second slide"/>
+                                                        <img class="d-block w-100" src={item.image2} height="400px" width="400px" alt="Second slide"/>
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img class="d-block w-100" src={item.image} height="400px" width="400px" alt="Third slide"/>
+                                                        <img class="d-block w-100" src={item.image3} height="400px" width="400px" alt="Third slide"/>
                                                     </div>
                                                 </div>
                                                 <a class="carousel-control-prev" href={`#carouselExampleIndicators${item.locationName}`} role="button" data-slide="prev">
@@ -120,7 +120,7 @@ class RouteSelectionPage extends React.Component {
                                     </div>
                                     <div class="col-7 mt-3">
                                         <div className="m-3">
-                                            <h2>Restrictions in {item.locationCountryName}</h2>
+                                            <h2>Corona restrictions in {item.locationCountryName}</h2>
                                             <div className="mt-4" style={{height: "400px", overflowY: "auto"}}>
                                                 <p className="h3">May I freely move within this country?</p>
                                                 <p className="h4 mb-4" style={{fontSize: "18px"}} >{item.locationRegulations.first}</p>

@@ -34,7 +34,9 @@
                 "second": "Passengers transiting the country with symptoms compatible with COVID-19 will be submitted to health controls.",
                 "third": "The use of mask is required on public roads, outdoor spaces and inside public places where it is not possible to guarantee the maintenance of a safety distance of at least 1.5 meters."
             },
-            "image": "https://www.hotelartsbarcelona.com/app/uploads/2017/12/Top-10-cosas-que-hacer-en-brcelona-blog_post-mobile.jpg"
+            "image": "https://www.hotelartsbarcelona.com/app/uploads/2017/12/Top-10-cosas-que-hacer-en-brcelona-blog_post-mobile.jpg",
+            "image2": "https://cms.finnair.com/resource/blob/737902/a62374add1125b1ebdcfd6af3de559ca/barcelona-main-data.jpg?impolicy=crop&width=1941&height=1941&x=1463&y=725&imwidth=768",
+            "image3": "https://images.theconversation.com/files/292421/original/file-20190913-8661-g1qajv.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
         },
         {
             "locationName": "Bayonne",
@@ -52,7 +54,9 @@
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://farm66.staticflickr.com/65535/49463469842_57d3ae4783_b.jpg"
+            "image": "https://farm66.staticflickr.com/65535/49463469842_57d3ae4783_b.jpg",
+            "image2": "https://farm66.staticflickr.com/65535/49463469842_57d3ae4783_b.jpg",
+            "image3": "https://media-cdn.tripadvisor.com/media/photo-s/10/37/df/75/la-nive-bayonne.jpg"
         },
         {
             "locationName": "Bordeaux",
@@ -70,7 +74,10 @@
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "It is mandatory to wear masks in closed spaces, including means of transport, and in any situation where it's not possible to guarantee the interpersonal safety distance.\nAre arrangements for “closed door” (i.e. organised coach tours without intermediate pickup) tourism packages available? No"
             },
-            "image": "https://scontent-ber1-1.xx.fbcdn.net/v/t1.0-9/61198168_2744366985579380_2689799925696299008_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=iPeR17OEsUUAX9r-NRe&_nc_ht=scontent-ber1-1.xx&oh=f07dcf984ed8f3a6c878d37c70a754a2&oe=5F23A885"
+            "image": "https://scontent-ber1-1.xx.fbcdn.net/v/t1.0-9/61198168_2744366985579380_2689799925696299008_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=iPeR17OEsUUAX9r-NRe&_nc_ht=scontent-ber1-1.xx&oh=f07dcf984ed8f3a6c878d37c70a754a2&oe=5F23A885",
+            "image2": "https://dtngh3spc2o8h.cloudfront.net/picture/4338eca3-6883-4ddd-abc3-ceedce97487b?w=800&h=800&fit=crop",
+            "image3": "https://www.visiter-bordeaux.com/sites/default/files/styles/image_produit_teaser/public/media/image/Bordeaux%20CityPass%20-%20Porte%20Cailhau.jpg?itok=oEBHKKwL"
+        
         },
         {
             "locationName": "Bozen",
@@ -196,7 +203,9 @@
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://www.jetsetter.com/uploads/sites/7/2018/11/GettyImages-163739027-1380x1380.jpg"
+            "image": "https://lh3.googleusercontent.com/proxy/hmCOJ0G1L1I4D6dCCaVBNjaWEOiWBsrBEsT4Bv_4_xt2QhYr4LIWk-TNSHYUfttUFp67_aKWK7PmY5_ZiicFOkVwTmMcunV92gCDLMvNCihn8wo3Ilb0B1yjB0ONRrK3skCENSGiNOQo1ZU45Jnx2qVu8Zl68HTsAeNsC4RHJM8-RjM",
+            "image2": "https://www.jetsetter.com/uploads/sites/7/2018/11/GettyImages-163739027-1380x1380.jpg",
+            "image3": "https://specials-images.forbesimg.com/imageserve/5e132be54e291700061a88aa/960x0.jpg?fit=scale"
         },
         {
             "locationName": "Girona",
@@ -207,7 +216,7 @@
             "costValue": "High",
             "weatherList": [4,4,4,7,6,6,6,6,9,6,6,7,6,6],
             "population": "760,000",
-            "locationCountryName": "Italy",
+            "locationCountryName": "Spain",
             "locationDescription": "One of the most historic sites in Spain, Girona lies in northeast Catalonia, just 99 km (62 mi) from Barcelona. Founded by Romans, the city later was taken over by Moors and Franks before finally falling under the rule of Barcelona. Influenced by different cultures and religions, the city beckons visitors with beautiful architecture. The Old and New Town offer many opportunities to pleasurably get lost and observe local life and culture.",
             "locationRegulations": {
                 "first": "Yes",
@@ -250,7 +259,9 @@
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://i.pinimg.com/originals/d6/d8/1b/d6d81b486dbf1d7aea4337c7defd988c.jpg"
+            "image": "https://s23514.pcdn.co/wp-content/uploads/2016/06/IMG_20160623_094805.jpg",
+            "image2": "https://i.pinimg.com/originals/d6/d8/1b/d6d81b486dbf1d7aea4337c7defd988c.jpg",
+            "image3": "https://www.provence-info.de/wp-content/uploads/calanques-cassis.jpg"
         },
         {
             "locationName": "Mayrhofen",
@@ -394,7 +405,9 @@
                 "second": "No compulsory quarantine for travellers from EU, Schengen area and UK.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg/1200px-Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg/1200px-Cath%C3%A9drale_Saint-%C3%88tienne%2C_Sens-6998.jpg",
+            "image2": "https://www.ultimatefrance.com/wp-content/sabai/File/files/l_a81d5f84646d538409b8e9faa9e54ed6.jpg",
+            "image3": "https://live.staticflickr.com/888/39366401350_f966b01b3b_b.jpg"
         },
         {
             "locationName": "St.Moritz",
@@ -412,7 +425,9 @@
                 "second": "For all EU/EFTA member States as well as UK the free movement of person is restored. As from 15 June, temperature checks will be carried out on all passengers arriving on direct flights from Sweden.",
                 "third": "No, however the use of masks is strongly recommended in places where physical distancing of 2 metres cannot be observed, such as in public transport."
             },
-            "image": "https://d1xyolhen8fnqh.cloudfront.net/media/hotels/slideshow_images_staged/large/1102072.jpg"
+            "image": "https://lh3.googleusercontent.com/proxy/3fOX68CKY5wFa_qJqj7a_COc-DefBwVO0gtHgCZeSXrFOADFddewhvrIFQcX7MO60MZZV4H8NWlKVhHsP_Ujzl9j5YjfQRmII2ypNohgcj3HY4je13hm4qheic_0welpSuPZfgjWwhgRHw",
+            "image2": "https://d1xyolhen8fnqh.cloudfront.net/media/hotels/slideshow_images_staged/large/1102072.jpg",
+            "image3": "https://www.topin.travel/wp-content/themes/topin/uploadedImages/1536841127_csm_Zug_Matterhorn_Glacierexpress_Schlumpf.jpg"
         },
         {
             "locationName": "Strasbourg",

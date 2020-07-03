@@ -114,7 +114,7 @@ class MapPage extends React.Component {
                     <div className="mb-5 mx-5">
                         <div className="row ml-0">
                             <div className="col pl-4 pt-3 text-align" style={{minWidth:"100px", maxWidth:"300px", backgroundColor: "rgba(136, 152, 149, 0.3)", borderRadius: "20px 0 0 20px"}}>
-                                        <p className="h3 inline text-center mb-3">Your selected route</p>
+                                        <p className="h3 inline text-center mb-3">Your route</p>
                                         <div className="pl-3 row mx-auto">
                                             <p style={{fontSize: "17px"}}>Corona Exposure: {this.state.route.coronaRisk}</p>
                                         </div>
@@ -125,16 +125,16 @@ class MapPage extends React.Component {
                                             <p style={{fontSize: "17px"}}> Cost: {this.state.route.cost}</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
-                                            <p style={{fontSize: "17px"}}> Carbon Footprint: CO2e kg</p>
+                                            <p style={{fontSize: "17px"}}> Carbon Footprint: {this.state.route.emission} CO2e kg</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
                                             <p style={{fontSize: "17px"}}>Travel Time: {this.state.route.travelTime} h</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
-                                            <p style={{fontSize: "17px"}}>Surfing stops: {this.state.route.surfActivitiesNumber}</p>
+                                            <p style={{fontSize: "17px"}}>Surfing spots: {this.state.route.surfActivitiesNumber}</p>
                                         </div>
                                         <div className="pl-3 row mx-auto">
-                                            <p style={{fontSize: "17px"}}>Hiking stops: {this.state.route.hikeActivitiesNumber}</p>
+                                            <p style={{fontSize: "17px"}}>Hiking spots: {this.state.route.hikeActivitiesNumber}</p>
                                         </div>
                                         <div className="row justify-content-center my-3">
                                             <a className="text-white" href={"#tiles"}>

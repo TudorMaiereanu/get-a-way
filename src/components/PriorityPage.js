@@ -70,7 +70,7 @@ class PriorityPage extends React.Component {
                             </div>
                             <div className="row mt-5">
                                 <div className="col">
-                                    <p className="h5 text-left ml-5" for="startLocation">Havel ideal weather”</p>
+                                    <p className="h5 text-left ml-5" for="startLocation">Have ideal weather</p>
                                 </div>
                                 <div className="col">
                                     <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.weatherPriority} onChange={this.handleChangeWeatherPriority}/>

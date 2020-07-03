@@ -50,6 +50,6 @@
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --open 'Google Chrome' --config webpack.dev.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b source -d build"
+    "deploy": "gh-pages -b deploy1 -d build"
   }
 }

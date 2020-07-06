@@ -19,8 +19,8 @@ class PriorityPage extends React.Component {
             costPriority: "0.5",
             emissionPriority: "0.5",
             timePriority: "0.5",
-            hasHiking: "",
-            hasSurfing: "",
+            hasHiking: false,
+            hasSurfing: false,
         };
 
         this.handleChangeCoronaPriority = this.handleChangeCoronaPriority.bind(this);
@@ -28,6 +28,8 @@ class PriorityPage extends React.Component {
         this.handleChangeCostPriority = this.handleChangeCostPriority.bind(this);
         this.handleChangeEmissionPriority = this.handleChangeEmissionPriority.bind(this);
         this.handleChangeTimePriority = this.handleChangeTimePriority.bind(this);
+        this.handleChangeHiking = this.handleChangeHiking.bind(this);
+        this.handleChangeSurfing = this.handleChangeSurfing.bind(this);
     }
 
     handleChangeCoronaPriority(event) {
@@ -50,6 +52,14 @@ class PriorityPage extends React.Component {
         this.setState({timePriority: event.target.value});
     };
 
+    handleChangeHiking(event) {
+        this.setState({hasHiking: event.target.checked});
+    };
+
+    handleChangeSurfing(event) {
+        this.setState({hasSurfing: event.target.checked});
+    };
+
     render() {
         return (
             <Page>
@@ -65,7 +75,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Reduce COVID-19 exposure</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.coronaPriority} onChange={this.handleChangeCoronaPriority}/>
+                                    <InputRange type="range"  min="0" max="2" step="1" value={this.state.coronaPriority} onChange={this.handleChangeCoronaPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -73,7 +83,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Have ideal weather</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.weatherPriority} onChange={this.handleChangeWeatherPriority}/>
+                                    <InputRange type="range"  min="0" max="2" step="1" value={this.state.weatherPriority} onChange={this.handleChangeWeatherPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -81,7 +91,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Lower costs</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range"  min="0" max="1" step="0.05" value={this.state.costPriority} onChange={this.handleChangeCostPriority}/>
+                                    <InputRange type="range"  min="0" max="2" step="1" value={this.state.costPriority} onChange={this.handleChangeCostPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -89,7 +99,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Minimize carbon-footprint</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range" min="0" max="1" step="0.05" value={this.state.emissionPriority} onChange={this.handleChangeEmissionPriority}/>
+                                    <InputRange type="range" min="0" max="2" step="1" value={this.state.emissionPriority} onChange={this.handleChangeEmissionPriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -97,7 +107,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Shorten travel time</p>
                                 </div>
                                 <div className="col">
-                                    <InputRange type="range" min="0" max="1" step="0.05" value={this.state.timePriority} onChange={this.handleChangeTimePriority}/>
+                                    <InputRange type="range" min="0" max="2" step="1" value={this.state.timePriority} onChange={this.handleChangeTimePriority}/>
                                 </div>
                             </div>
                             <div className="row mt-5">
@@ -105,7 +115,7 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Go surfing</p>
                                 </div>
                                 <div className="col text-center">
-                                    <CheckBox id="checkbox1" type="checkbox" />
+                                    <CheckBox id="checkbox1" type="checkbox" value={this.state.hasSurfing} onChange={this.handleChangeSurfing}/>
                                     <CheckBoxLabel htmlFor="checkbox1" />
                                 </div>
                             </div>
@@ -114,15 +124,19 @@ class PriorityPage extends React.Component {
                                     <p className="h5 text-left ml-5" for="startLocation">Go hiking</p>
                                 </div>
                                 <div className="col text-center">
-                                    <CheckBox id="checkbox2" type="checkbox" />
+                                    <CheckBox id="checkbox2" type="checkbox" value={this.state.hasHiking} onChange={this.handleChangeHiking}/>
                                     <CheckBoxLabel htmlFor="checkbox2" />
                                 </div>
                             </div>
 
                             <div className="text-center mt-5">
-                                <a href={"#routes"} className="text-white">
-                                    <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
-                                            <p className="h4 p-2 my-auto">Get a way</p>
+                                <a className="text-white">
+                                    <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}
+                                        onClick={() => {
+                                            console.log(this.state);
+                                        }}
+                                    >
+                                        <p className="h4 p-2 my-auto">Get a way</p>
                                     </button>
                                 </a>
                             </div>

@@ -203,9 +203,9 @@
                 "second": "Travelling to and from the following countries is permitted: Member States of the European Union, countries that are parties to the Schengen Agreement, United Kingdom, Andorra, Monaco, Vatican City State and the Republic of San Marino. From 3 June, mandatory fiduciary isolation is required for those who, although coming from one of the listed countries, in the 14 days prior to their arrival in Italy have also been in countries other than those listed.",
                 "third": "Masks are recommended in certain situations and mandatory in others. Physical distancing measures of 1 metre and a protective mask for anyone over 11 years old are mandatory on public transport, in some shops (at the decision of the managers), in taxis, in restaurants, cafés."
             },
-            "image": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/Genoa1.jpg?raw=true",
-            "image2": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/Genoa2.jpg?raw=true",
-            "image3": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/Genoa3.jpg?raw=true"
+            "image": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/images/Genoa1.jpg?raw=true",
+            "image2": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/images/Genoa2.jpg?raw=true",
+            "image3": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/images/Genoa3.jpg?raw=true"
         },
         {
             "locationName": "Girona",
@@ -425,9 +425,9 @@
                 "second": "For all EU/EFTA member States as well as UK the free movement of person is restored. As from 15 June, temperature checks will be carried out on all passengers arriving on direct flights from Sweden.",
                 "third": "No, however the use of masks is strongly recommended in places where physical distancing of 2 metres cannot be observed, such as in public transport."
             },
-            "image": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/St.Moritz1.jpg?raw=true",
-            "image2": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/St.Moritz2.jpg?raw=true",
-            "image3": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/images/St.Moritz3.jpg?raw=true"
+            "image": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/images/St.Moritz1.jpg?raw=true",
+            "image2": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/images/St.Moritz2.jpg?raw=true",
+            "image3": "https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/images/St.Moritz3.jpg?raw=true"
         },
         {
             "locationName": "Strasbourg",

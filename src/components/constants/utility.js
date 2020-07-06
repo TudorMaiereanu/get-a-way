@@ -1,7 +1,5 @@
 import topsis from 'topsis';
 
-// import { weights, getTopRoutes } from './constants/utility';
-
 var linearAlgebra = require('linear-algebra')(),
     Vector = linearAlgebra.Vector,
     Matrix = linearAlgebra.Matrix;
@@ -11,6 +9,9 @@ const alt = require('./alt');
 const times = [0, 1, 2, 3, 4];
 
 function weights(p_weather=0, p_corona=0, p_cost=0, p_CO2=0, p_time=0, p_act_hike=0, p_act_surf=0) {
+    p_act_hike = p_act_hike ? 1 : 0;
+    p_act_surf = p_act_surf ? 1 : 0;
+
     let base = [0.228, 0.251, 0.228, 0, 0, 0, 0.065, 0.228];
     let weightsResult;
 

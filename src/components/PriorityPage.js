@@ -14,11 +14,11 @@ class PriorityPage extends React.Component {
         super(props);
 
         this.state = {
-            coronaPriority: "0.5",
-            weatherPriority: "0.5",
-            costPriority: "0.5",
-            emissionPriority: "0.5",
-            timePriority: "0.5",
+            coronaPriority: "1",
+            weatherPriority: "1",
+            costPriority: "1",
+            emissionPriority: "1",
+            timePriority: "1",
             hasHiking: false,
             hasSurfing: false,
         };
@@ -130,12 +130,11 @@ class PriorityPage extends React.Component {
                             </div>
 
                             <div className="text-center mt-5">
-                                <a className="text-white">
-                                    <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}
-                                        onClick={() => {
-                                            console.log(this.state);
-                                        }}
-                                    >
+                                <a 
+                                    href={`#routes/coronaPriority=${this.state.coronaPriority}&weatherPriority=${this.state.weatherPriority}&timePriority=${this.state.timePriority}&costPriority=${this.state.costPriority}&emissionPriority=${this.state.emissionPriority}&hasSurfing=${this.state.hasSurfing}&hasHiking=${this.state.hasHiking}&`} 
+                                    className="text-white"
+                                >
+                                    <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
                                         <p className="h4 p-2 my-auto">Get a way</p>
                                     </button>
                                 </a>

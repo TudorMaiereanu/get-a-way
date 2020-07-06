@@ -16,8 +16,9 @@ class RouteSelectionPage extends React.Component {
 
         this.state = {
             activeItemIndex: 0,
-            routeStopNames: mockData.routes[routeIndex].stopsList,
+            routeStopNames: [],
             routeStops: [],
+            routeIndex: '',
             weatherMockDict: {
                 1: "fas fa-sun",
                 2:  "fas fa-sun",
@@ -37,9 +38,17 @@ class RouteSelectionPage extends React.Component {
     }
 
     componentWillMount() {
-        const routeObjectsList = mockData.cities.filter(obj => mockData.routes[routeIndex].stopsList.includes(obj.locationName));
+        const url = String(window.location.href);
+        var idx = url.match(/route=(.*)/)[1];
+        const numericalIndex = Number(idx[0])
+        const route = mockData.routes[numericalIndex];
+        this.setState({
+            routeIndex: numericalIndex,
+        })
 
-        this.state.routeStopNames.forEach((object => {
+        const routeObjectsList = mockData.cities.filter(obj => mockData.routes[numericalIndex].stopsList.includes(obj.locationName));
+
+        route['stopsList'].forEach((object => {
             this.state.routeStops.push(this.getObjectByCityName(object, routeObjectsList))
         }))
     }
@@ -52,7 +61,7 @@ class RouteSelectionPage extends React.Component {
                     <div className="row pt-3 text-white" style={{backgroundColor: "#3D5C57"}}>
                         {this.state.routeStops.map((item, i) => <div className="col">
                             <p className="text-center h5 text-white">{item.locationName}</p>
-                            <p className="text-center text-white">Days: {mockData.routes[routeIndex].dayslist[i]}</p>
+                            <p className="text-center text-white">Days: {mockData.routes[this.state.routeIndex].dayslist[i]}</p>
                         </div>)}
                     </div>
                     <div className="container-fluid" style={{maxWidth:"90%"}}>
@@ -97,10 +106,10 @@ class RouteSelectionPage extends React.Component {
                                                         <img class="d-block w-100" src={item.image} height="400px" width="400px" alt="First slide"/>
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img class="d-block w-100" src={item.image2} height="400px" width="400px" alt="Second slide"/>
+                                                        <img class="d-block w-100" src={item.image}height="400px" width="400px" alt="Second slide"/>
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img class="d-block w-100" src={item.image3} height="400px" width="400px" alt="Third slide"/>
+                                                        <img class="d-block w-100" src={item.image} height="400px" width="400px" alt="Third slide"/>
                                                     </div>
                                                 </div>
                                                 <a class="carousel-control-prev" href={`#carouselExampleIndicators${item.locationName}`} role="button" data-slide="prev">
@@ -114,7 +123,7 @@ class RouteSelectionPage extends React.Component {
                                             </div>
                                             <div class="card-body text-center" style={{overflowX: "auto"}}>
                                                 <h5>{item.locationName}</h5>
-                                                <p>Days: {mockData.routes[routeIndex].dayslist[i]}</p>
+                                                <p>Days: {mockData.routes[this.state.routeIndex].dayslist[i]}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -139,7 +148,7 @@ class RouteSelectionPage extends React.Component {
                                 </div>
                                 <div className="row mt-4">
                                     <div className="col mx-5">
-                                        <img src={`https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/get-a-way-backend/src/data/${item.locationName}.png?raw=true`} width="100%" style={{borderRadius: "20px"}}/>
+                                        <img src={`https://github.com/TudorMaiereanu/get-a-way-backend/blob/master/src/data/${item.locationName}.png?raw=true`} width="100%" style={{borderRadius: "20px"}}/>
                                         <p className="h5">Total population: {item.population} people</p>
                                     </div>
                                 </div>

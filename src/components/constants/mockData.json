@@ -486,7 +486,7 @@
     ],
     "routes": [
         {
-            "routeIndex": "1",
+            "routeIndex": "0",
             "weatherAverage": "6",
             "coronaRisk": "High ",
             "cost": "Medium Budget",
@@ -498,7 +498,7 @@
             "emission": "473"
         },
         {
-            "routeIndex": "2",
+            "routeIndex": "1",
             "weatherAverage": "6",
             "coronaRisk": "Low ",
             "cost": "Low Budget",
@@ -510,7 +510,7 @@
             "emission": "519"
         },
         {
-            "routeIndex": "3",
+            "routeIndex": "2",
             "weatherAverage": "6",
             "coronaRisk": "Moderate ",
             "cost": "Low Budget",
@@ -522,7 +522,7 @@
             "emission": "549"
         },
         {
-            "routeIndex": "4",
+            "routeIndex": "3",
             "weatherAverage": "6",
             "coronaRisk": "Moderate ",
             "cost": "Low Budget",
@@ -534,7 +534,7 @@
             "emission": "609"
         },
         {
-            "routeIndex": "5",
+            "routeIndex": "4",
             "weatherAverage": "6",
             "coronaRisk": "High ",
             "cost": "Medium Budget",

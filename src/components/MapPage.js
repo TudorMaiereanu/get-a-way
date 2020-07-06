@@ -14,10 +14,9 @@ const styles = {
 };
 
 const mockData = require('./constants/mockData');
-const routeIndex = "3";
 
-const MapboxGLMap = (newProps) => {
-    const [props, setProps] = useState(newProps);
+const MapboxGLMap = (newRoute) => {
+    const [route, setRoute] = useState(newRoute);
     const [map, setMap] = useState(null);
     const mapContainer = useRef(null);
 
@@ -42,7 +41,7 @@ const MapboxGLMap = (newProps) => {
             console.log(event.lngLat)
         });
 
-        mockData.routes[routeIndex].stopsList.forEach(stopName => {
+        route.newProps.stopsList.forEach(stopName => {
             let lng = parseInt(mockData.cities.find(obj => { return obj["locationName"] === stopName})['locationLong'])
             let lat = parseInt(mockData.cities.find(obj => { return obj["locationName"] === stopName})['locationLat'])
 
@@ -94,17 +93,26 @@ class MapPage extends React.Component {
 
         this.state = {
             map: "map",
-            route: mockData.routes[routeIndex],
+            route: null,
+            routeIndex: "",
         };
 
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+    componentWillMount() {
+        const url = String(window.location.href);
+        var idx = url.match(/route=(.*)/)[1];
+        const numericalIndex = Number(idx[0])
+        console.log(numericalIndex)
+        this.setState({
+            route: mockData.routes[numericalIndex],
+            routeIndex: numericalIndex,
+        })
+    }
+
     handleSubmit(event) {
         event.preventDefault();
-
-        console.log("Get a way");
-        console.log(this.state);
     }
 
     render() {
@@ -137,7 +145,7 @@ class MapPage extends React.Component {
                                             <p style={{fontSize: "17px"}}>Hiking spots: {this.state.route.hikeActivitiesNumber}</p>
                                         </div>
                                         <div className="row justify-content-center my-3">
-                                            <a className="text-white" href={"#tiles"}>
+                                            <a className="text-white" href={`#tiles/route=${this.state.routeIndex}$`}>
                                                 <button type="submit" className="btn btn-primary" style={{backgroundColor: "#eb401d", borderRadius: "20px", borderColor:"#eb401d"}}>
                                                     <p className="h5 p-1 my-auto">Details</p>
                                                 </button>
@@ -168,7 +176,7 @@ class MapPage extends React.Component {
                         </div>
                     </div>
                     <div className="mx-5 border" style={{height: "700px", overflowX: "hidden", marginBottom: "100px", borderRadius: "20px"}}>
-                        <MapboxGLMap newProps={this.state}/>
+                        <MapboxGLMap newProps={this.state.route}/>
                     </div>
                 </div>
             </Page>
